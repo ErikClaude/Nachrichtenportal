@@ -1,0 +1,63 @@
+# Konfiguration des Nachrichtenportals
+# ------------------------------------
+# Jede Rubrik ist ein Eintrag unter "rubriken". Eine neue Rubrik entsteht
+# allein durch einen neuen Eintrag hier – der Code muss nicht geändert werden.
+# Die Reihenfolge hier ist auch die Reihenfolge auf der Seite.
+#
+# Felder pro Feed:
+#   name:  Anzeigename der Quelle
+#   url:   Adresse des RSS-/Atom-Feeds
+#   lang:  Sprache des Feeds (optional, Standard "de").
+#          Bei allem außer "de" werden Schlagzeile und Exzerpt ins Deutsche übersetzt.
+
+einstellungen:
+  titel: "Mein Nachrichtenportal"
+  max_meldungen_pro_rubrik: 15
+  exzerpt_laenge: 300
+  zeitzone: "Europe/Berlin"
+
+rubriken:
+  - name: "Deutschland"
+    feeds:
+      - name: "tagesschau"
+        url: "https://www.tagesschau.de/inland/index~rss2.xml"
+      - name: "Deutsche Welle"
+        url: "https://rss.dw.com/xml/rss-de-deutschland"
+      - name: "SPIEGEL"
+        url: "https://www.spiegel.de/politik/deutschland/index.rss"
+      - name: "Deutschlandfunk"
+        url: "https://www.deutschlandfunk.de/politikportal-100.rss"
+
+  - name: "Welt"
+    feeds:
+      - name: "tagesschau"
+        url: "https://www.tagesschau.de/ausland/index~rss2.xml"
+      - name: "Deutsche Welle"
+        url: "https://rss.dw.com/xml/rss-de-all"
+      - name: "BBC News"
+        url: "https://feeds.bbci.co.uk/news/world/rss.xml"
+        lang: "en"
+
+  - name: "Aktien & Börse"
+    feeds:
+      - name: "Handelsblatt"
+        url: "https://www.handelsblatt.com/contentexport/feed/finanzen"
+      - name: "tagesschau"
+        url: "https://www.tagesschau.de/wirtschaft/finanzen/index~rss2.xml"
+      - name: "n-tv"
+        url: "https://www.n-tv.de/wirtschaft/boerse/rss"
+      - name: "FAZ"
+        url: "https://www.faz.net/rss/aktuell/finanzen/"
+
+  - name: "Energie"
+    feeds:
+      - name: "tagesschau"
+        url: "https://www.tagesschau.de/wirtschaft/energie/index~rss2.xml"
+      - name: "pv magazine"
+        url: "https://www.pv-magazine.de/feed/"
+      - name: "Clean Energy Wire"
+        url: "https://www.cleanenergywire.org/rss.xml"
+        lang: "en"
+      - name: "The Guardian"
+        url: "https://www.theguardian.com/environment/energy/rss"
+        lang: "en"
