@@ -31,11 +31,29 @@ Nur `feeds.yaml` bearbeiten – am Code ändert sich nichts. Einen Block unter `
 „Nachrichtenportal bauen & veröffentlichen“ per **Run workflow** starten (oder bis zum
 nächsten nächtlichen Lauf warten).
 
+## Börsen-Radar
+
+Die zweite Seite `boerse.html` (oben über „Börsen-Radar →“ erreichbar) zeigt Marktlage,
+aktuelle Ereignisse, Termine der nächsten Tage (inklusive Börsengänge) mit möglichen
+Auswirkungen und Handlungsideen sowie je 10 begründete Kaufideen für USA, Europa und Asien.
+
+Die Inhalte kommen nicht aus RSS-Feeds: Eine geplante Claude-Routine recherchiert sie
+täglich und legt sie als `boerse/aktuell.json` auf dem Branch `boerse-daten` ab. Der Build
+holt die Datei von dort. Was die Routine tun soll und wie die Datei aufgebaut ist, steht in
+`boerse/ROUTINE.md` – dort lassen sich Umfang und Regeln anpassen. Fehlt die Datei, zeigt
+die Seite einen Platzhalter; ist sie älter als zwei Tage, erscheint ein Warnhinweis.
+
+Die Einschätzungen sind KI-erzeugt und keine Anlageberatung.
+
+```bash
+python boerse.py --check boerse/aktuell.json   # Format prüfen
+```
+
 ## Lokal ausführen
 
 ```bash
 pip install -r requirements.txt
-python build.py              # erzeugt public/index.html
+python build.py              # erzeugt public/index.html und public/boerse.html
 python build.py --no-translate
 ```
 

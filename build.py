@@ -23,6 +23,8 @@ import feedparser
 import requests
 import yaml
 
+import boerse
+
 USER_AGENT = "Mozilla/5.0 (compatible; Nachrichtenportal/1.0; +https://github.com/)"
 TIMEOUT = 20
 MONATE = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli",
@@ -246,12 +248,12 @@ def fmt_item_time(dt: datetime | None, tz: ZoneInfo, now: datetime) -> tuple[str
     return label, local.isoformat()
 
 
-def render(title: str, sections: list[tuple[str, list[Item], list[str]]], tz: ZoneInfo) -> str:
+def render_news(sections: list[tuple[str, list[Item], list[str]]], tz: ZoneInfo) -> tuple[str, str]:
+    """Gibt (Navigation, Hauptinhalt) der Nachrichtenseite als HTML zurück."""
     now = datetime.now(tz)
-    stamp = f"{WOCHENTAGE[now.weekday()]}, {now.day}. {MONATE[now.month - 1]} {now.year}, {now:%H:%M} Uhr"
     e = html.escape
 
-    nav, body = [], []
+    nav, body = ['<a class="primary" href="boerse.html">Börsen-Radar →</a>'], []
     used_ids: set[str] = set()
     for name, items, failed in sections:
         sid = slugify(name)
@@ -279,6 +281,14 @@ def render(title: str, sections: list[tuple[str, list[Item], list[str]]], tz: Zo
 {chr(10).join(cards)}
     </section>""")
 
+    return "".join(nav), "\n".join(body)
+
+
+def page(title: str, nav_html: str, body_html: str, footer: str, tz: ZoneInfo) -> str:
+    """Gemeinsames Seitengerüst (Kopf, Navigation, Stil) für alle Seiten des Portals."""
+    now = datetime.now(tz)
+    stamp = f"{WOCHENTAGE[now.weekday()]}, {now.day}. {MONATE[now.month - 1]} {now.year}, {now:%H:%M} Uhr"
+    e = html.escape
     return f"""<!doctype html>
 <html lang="de">
 <head>
@@ -335,6 +345,22 @@ def render(title: str, sections: list[tuple[str, list[Item], list[str]]], tz: Zo
   .more:hover {{ text-decoration: underline; }}
   .warn {{ color: var(--warn); font-size: .85rem; margin: -4px 0 10px; }}
   .empty {{ color: var(--muted); }}
+  nav a.primary {{ background: var(--accent); border-color: var(--accent); color: var(--bg); font-weight: 600; }}
+  .notice {{ border: 1px solid var(--border); border-left: 4px solid var(--warn); border-radius: 8px;
+    background: var(--card); padding: 10px 14px; margin: 16px 0 8px; font-size: .88rem; color: var(--muted); }}
+  main > .updated, main > .warn {{ margin: 8px 0 0; }}
+  h4 {{ font-size: .78rem; letter-spacing: .04em; text-transform: uppercase; color: var(--muted);
+    margin: 12px 0 4px; }}
+  article ul {{ margin: 0 0 8px; padding-left: 20px; }}
+  article li {{ margin-bottom: 4px; overflow-wrap: anywhere; }}
+  .chip {{ display: inline-block; border: 1px solid var(--border); border-radius: 999px;
+    padding: 0 8px; margin-left: 4px; font-size: .78rem; }}
+  .facts {{ display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 6px 0 10px; }}
+  .facts dt {{ font-size: .75rem; color: var(--muted); }}
+  .facts dd {{ margin: 0; font-weight: 600; font-variant-numeric: tabular-nums; }}
+  .risk {{ margin: 0 0 8px; font-size: .92rem; overflow-wrap: anywhere; }}
+  .src {{ margin: 0; font-size: .82rem; color: var(--muted); overflow-wrap: anywhere; }}
+  .src a {{ color: var(--accent); }}
   @media (max-width: 600px) {{
     header {{ position: static; }}
     section {{ scroll-margin-top: 8px; }}
@@ -358,13 +384,13 @@ def render(title: str, sections: list[tuple[str, list[Item], list[str]]], tz: Zo
     <button id="theme" type="button" aria-label="Hell- oder Dunkelmodus umschalten">◐ Modus</button>
   </div>
   <nav aria-label="Rubriken">
-    {"".join(nav)}
+    {nav_html}
   </nav>
 </header>
 <main>
-{chr(10).join(body)}
+{body_html}
 </main>
-<footer>Automatisch erzeugt aus RSS-Feeds. Alle Rechte an den Inhalten liegen bei den jeweiligen Quellen.</footer>
+<footer>{e(footer)}</footer>
 <script>
   document.getElementById("theme").addEventListener("click", function () {{
     var root = document.documentElement;
@@ -385,6 +411,7 @@ def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--config", default="feeds.yaml")
     ap.add_argument("--out", default="public")
+    ap.add_argument("--boerse", default="boerse/aktuell.json", help="Datei mit der Börsen-Analyse")
     ap.add_argument("--no-translate", action="store_true", help="englische Meldungen nicht übersetzen")
     args = ap.parse_args()
 
@@ -407,8 +434,19 @@ def main() -> int:
 
     out_dir = Path(args.out)
     out_dir.mkdir(parents=True, exist_ok=True)
-    page = render(settings.get("titel", "Nachrichten"), sections, tz)
-    (out_dir / "index.html").write_text(page, encoding="utf-8")
+    titel = settings.get("titel", "Nachrichten")
+    nav_html, body_html = render_news(sections, tz)
+    footer = "Automatisch erzeugt aus RSS-Feeds. Alle Rechte an den Inhalten liegen bei den jeweiligen Quellen."
+    (out_dir / "index.html").write_text(page(titel, nav_html, body_html, footer, tz), encoding="utf-8")
+
+    daten, fehler = boerse.load(Path(args.boerse))
+    if daten is None and not fehler:
+        log(f"Börsen-Radar: {args.boerse} fehlt – Seite zeigt einen Platzhalter")
+    for err in fehler:
+        log(f"  ! Börsen-Radar: {err}")
+    nav_html, body_html = boerse.render(daten, fehler, tz)
+    (out_dir / "boerse.html").write_text(
+        page(f"{titel} – Börsen-Radar", nav_html, body_html, boerse.HINWEIS, tz), encoding="utf-8")
     (out_dir / ".nojekyll").write_text("", encoding="utf-8")
     total = sum(len(s[1]) for s in sections)
     log(f"Fertig: {total} Meldungen in {len(sections)} Rubriken → {out_dir / 'index.html'}")

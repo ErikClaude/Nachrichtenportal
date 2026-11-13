@@ -30,6 +30,18 @@ jobs:
       - name: Abhängigkeiten installieren
         run: pip install -r requirements.txt
 
+      - name: Börsen-Analyse holen
+        # Die tägliche Claude-Routine legt boerse/aktuell.json auf dem Branch boerse-daten ab.
+        # Fehlt der Branch oder die Datei, zeigt die Seite einen Platzhalter.
+        run: |
+          if git fetch --depth=1 origin boerse-daten 2>/dev/null \
+             && git show FETCH_HEAD:boerse/aktuell.json > /tmp/aktuell.json 2>/dev/null; then
+            mkdir -p boerse && mv /tmp/aktuell.json boerse/aktuell.json
+            echo "Börsen-Analyse übernommen."
+          else
+            echo "Keine Börsen-Analyse auf boerse-daten gefunden."
+          fi
+
       - name: Seite erzeugen
         env:
           # Optional: DeepL-Schlüssel als Repository-Secret hinterlegen für bessere Übersetzungen.
