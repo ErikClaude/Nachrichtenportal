@@ -1,0 +1,1409 @@
+{
+  "stand": "2026-11-14T01:55:40+01:00",
+  "marktlage": "Die US-Börsen schlossen am Freitag (13.11.) uneinheitlich: Der S&P 500 gab 0,4 % auf 7.561,67 Punkte nach, der Nasdaq Composite 0,9 % auf 25.136,27 Punkte, während der Dow Jones leicht zulegte; auf Wochensicht blieb dem S&P 500 dennoch ein Plus von 2,5 %. Belastet hat vor allem der Technologiesektor nach dem Rücktritt von Nvidia-Chef Jensen Huang – die Aktie verlor in der Woche 12,75 % und fiel unter 4 Billionen USD Börsenwert –, zugleich floss Geld in andere Branchen. Der DAX stieg am Donnerstag erstmals über 27.000 Punkte und beendete die Woche trotz eines kleinen Freitagsminus (−0,08 % auf 26.749,95 Punkte) mit +3,6 %. In Asien schloss der Nikkei 225 im Plus bei gut 61.000 Punkten, der Kospi gab nach einem Zwischenhoch über 5.500 Punkten rund 1 % auf 5.290,53 Punkte ab, der Hang Seng verlor je nach Quelle etwa 1,5 bis 1,8 %. Beherrschende Themen der neuen Woche sind die Nvidia-Zahlen (17.11.), das Fed-Protokoll nach überraschend hoher US-Inflation (eine Zinserhöhung im Dezember gilt laut Berichten als eingepreist), der APEC-Gipfel in Shenzhen und der erwartete Börsengang von Anthropic.",
+  "ereignisse": [
+    {
+      "titel": "Nvidia: Jensen Huang tritt als Konzernchef zurück",
+      "datum": "2026-11-12",
+      "status": "aktuell",
+      "region": "USA",
+      "kategorie": "Unternehmen",
+      "expose": "Nvidia-Chef Jensen Huang ist am 12. November zurückgetreten; Finanzchefin Colette Kress führt den Konzern übergangsweise, Harvey C. Jones wird erster Verwaltungsratsvorsitzender. Die Aktie verlor am Donnerstag 4,34 %, in der Woche 12,75 % (sechste Verlustwoche in Folge) und schloss am Freitag erstmals seit Juli 2025 unter 4 Billionen USD Börsenwert. Laut Berichten wächst zudem der politische Druck, die Chip-Exportregeln gegenüber China zu verschärfen. Zu achten ist auf die Nachfolgesuche und die Quartalszahlen am 17. November.",
+      "auswirkungen": [
+        {
+          "szenario": "Rasche, überzeugende Nachfolgelösung",
+          "wirkung": "Die Unsicherheit könnte abnehmen; Nvidia und der gesamte Halbleitersektor (auch Zulieferer in Asien und Europa) könnten sich stabilisieren."
+        },
+        {
+          "szenario": "Längere Hängepartie oder weitere Enthüllungen",
+          "wirkung": "Die Aktie könnte weiter belasten und wegen ihres Indexgewichts Nasdaq und S&P 500 mitziehen; Wettbewerber wie AMD oder Broadcom könnten relativ profitieren."
+        },
+        {
+          "szenario": "Schärfere US-Exportkontrollen",
+          "wirkung": "Das träfe Chipwerte mit China-Geschäft und könnte Gegenmaßnahmen Pekings auslösen – Risiko für Halbleiter und asiatische Technologiewerte."
+        }
+      ],
+      "ideen": [
+        "Klumpenrisiko prüfen: Wie hoch ist der Nvidia- und KI-Anteil im eigenen Depot und in gehaltenen Indexfonds?",
+        "Vor den Zahlen am 17.11. keine übereilten Käufe oder Verkäufe; Einstiege allenfalls staffeln."
+      ],
+      "quellen": [
+        {
+          "name": "CNBC – Nvidia schließt nach Rücktritt über 4 % tiefer",
+          "url": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html"
+        },
+        {
+          "name": "CNBC – Nvidia unter 4 Billionen USD Börsenwert",
+          "url": "https://www.cnbc.com/2026/11/13/nvidia-nvda-stock-jensen-huang-transition.html"
+        },
+        {
+          "name": "Al Jazeera – Hintergründe zum Rücktritt",
+          "url": "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress"
+        }
+      ]
+    },
+    {
+      "titel": "US-Inflation im Oktober höher als erwartet – Zinserhöhung im Dezember eingepreist",
+      "datum": "2026-11-10",
+      "datum_bis": "2026-11-13",
+      "status": "aktuell",
+      "region": "USA",
+      "kategorie": "Konjunktur",
+      "expose": "Die US-Verbraucherpreise stiegen im Oktober um 0,4 % zum Vormonat (erwartet 0,3 %), die Kernrate zum dritten Mal in Folge um 0,3 %. Die am 13. November gemeldeten Erzeugerpreise legten mit 0,3 % weniger stark zu als erwartet (0,4 %), die Jahresrate erreichte aber 6,5 % – den höchsten Wert seit November 2022. Der Leitzins liegt bei 3,75 bis 4,00 %; laut Berichten preisen die Märkte für die Sitzung am 9. Dezember mindestens eine Erhöhung um 0,25 Prozentpunkte ein.",
+      "auswirkungen": [
+        {
+          "szenario": "Erhöhung um 0,25 Punkte wie erwartet",
+          "wirkung": "Weitgehend eingepreist; Banken und Versicherer könnten von höheren Zinsen profitieren, hoch bewertete Wachstumswerte blieben unter Bewertungsdruck."
+        },
+        {
+          "szenario": "Diskussion über 0,50 Punkte verstärkt sich",
+          "wirkung": "Anleiherenditen und US-Dollar könnten steigen; Technologie-, Immobilien- und hoch verschuldete Unternehmen dürften stärker leiden."
+        },
+        {
+          "szenario": "Folgedaten zeigen nachlassenden Preisdruck",
+          "wirkung": "Erleichterung möglich – zinssensitive Sektoren und Nebenwerte könnten sich erholen."
+        }
+      ],
+      "ideen": [
+        "Zinsabhängigkeit des Depots prüfen (Wachstumswerte, Immobilien, lang laufende Anleihen).",
+        "Festgeld- und Anleiherenditen als Alternative im Blick behalten."
+      ],
+      "quellen": [
+        {
+          "name": "CNBC – Erzeugerpreise Oktober 2026",
+          "url": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html"
+        },
+        {
+          "name": "KPMG – Oktober-Inflation und Zinserhöhung",
+          "url": "https://kpmg.com/us/en/articles/2026/october-2026-cpi.html"
+        },
+        {
+          "name": "Babypips – Verbraucherpreise Oktober",
+          "url": "https://www.babypips.com/analysis/headline-us-cpi-october-fed-hike-december-2026-11-11"
+        }
+      ]
+    },
+    {
+      "titel": "DAX erstmals über 27.000 Punkten – Rekordwoche mit Zahlenflut",
+      "datum": "2026-11-12",
+      "status": "aktuell",
+      "region": "Europa",
+      "kategorie": "Unternehmen",
+      "expose": "Der DAX überschritt am 12. November erstmals 27.000 Punkte und schloss die Woche mit +3,6 % bei 26.749,95 Punkten; der MDAX fiel am Freitag um 0,51 % auf 30.699,96 Punkte. Getragen wurde die Woche von Quartalsberichten: Siemens meldete ein Rekordgeschäftsjahr und hob die Mittelfristziele an, Munich Re erhöhte das Gewinnziel 2026 auf 6,6 Mrd. EUR, E.ON bestätigte die Jahresprognose. Infineon verlor am Freitag dagegen 4,3 % und war DAX-Schlusslicht.",
+      "auswirkungen": [
+        {
+          "szenario": "Rally setzt sich fort",
+          "wirkung": "Zykliker, Finanzwerte und Versorger könnten weiter gefragt bleiben, solange Geld aus US-Technologie in andere Regionen und Branchen umgeschichtet wird."
+        },
+        {
+          "szenario": "Gewinnmitnahmen nach dem Rekord",
+          "wirkung": "Nach +3,6 % in einer Woche wäre eine Verschnaufpause nicht ungewöhnlich; schwache US-Technologiewerte könnten Chip- und Softwaretitel im DAX belasten."
+        }
+      ],
+      "ideen": [
+        "Nach starken Kursgewinnen Positionsgrößen überprüfen statt prozyklisch nachzukaufen.",
+        "Neue Einstiege in Tranchen aufteilen."
+      ],
+      "quellen": [
+        {
+          "name": "ARIVA / dpa-AFX – Aktien Frankfurt Schluss 13.11.",
+          "url": "https://www.ariva.de/news/roundup-aktien-frankfurt-schluss-dax-trotzt-nasdaq-schwaeche-12207030"
+        },
+        {
+          "name": "aktiencheck.de – DAX-Check am Abend",
+          "url": "https://aktiencheck.de/artikel/dax-check-am-abend-rekordwoche-perfekt-eon-und-fmc-jubeln-infineon-stuerzt-ab"
+        },
+        {
+          "name": "finanzen.at – Siemens Rekordgeschäftsjahr",
+          "url": "https://www.finanzen.at/nachrichten/aktien/siemens-aktie-im-aufwind-rekordgeschaftsjahr-und-hoehere-mittelfristziele-1036754203"
+        }
+      ]
+    },
+    {
+      "titel": "Weltweiter Ausfall von Microsoft 365",
+      "datum": "2026-11-12",
+      "datum_bis": "2026-11-13",
+      "status": "aktuell",
+      "region": "Global",
+      "kategorie": "Unternehmen",
+      "expose": "Ab dem 12. November waren Outlook, Teams und Copilot weltweit gestört; laut Berichten dauerte der Ausfall rund zwölf Stunden und reichte in die Geschäftszeiten in Asien am Freitag. Microsoft führte ihn Berichten zufolge auf eine Erweiterung der Netzwerkkapazität zurück. Die Aktie gab vorbörslich nach, schloss am Freitag aber leicht im Plus bei rund 523,88 USD; Analysten sehen bislang keine Kundenabwanderung, verweisen aber auf wiederholte Ausfälle in diesem Jahr.",
+      "auswirkungen": [
+        {
+          "szenario": "Einmaliger Vorfall ohne Folgen",
+          "wirkung": "Kaum nachhaltige Kurswirkung; der Fokus kehrt zu Cloud- und KI-Wachstum zurück."
+        },
+        {
+          "szenario": "Weitere Ausfälle oder Vertragsstrafen",
+          "wirkung": "Vertrauens- und Margenrisiko für Microsoft; Wettbewerber und Sicherheitsanbieter (am Freitag legten CrowdStrike und Palo Alto Networks rund 3 % zu) könnten profitieren."
+        }
+      ],
+      "ideen": [
+        "Einzelne Störungen nicht überbewerten – entscheidend ist, ob sich Ausfälle häufen."
+      ],
+      "quellen": [
+        {
+          "name": "RTE – Microsoft stellt Dienste schrittweise wieder her",
+          "url": "https://www.rte.ie/news/business/2026/1113/1599061-microsoft-tech-outage/"
+        },
+        {
+          "name": "Yahoo Finance – CrowdStrike und Palo Alto steigen",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-palo-alto-networks-climb-141240301.html"
+        },
+        {
+          "name": "Invezz – Microsoft-Aktie stabilisiert sich",
+          "url": "https://invezz.com/uk/news/2026/11/13/microsoft-stock-steadies-after-global-outage-as-ai-competition-intensifies/"
+        }
+      ]
+    },
+    {
+      "titel": "Broadcom-Abstufung: Sorgen um die Finanzierung des KI-Booms",
+      "datum": "2026-11-13",
+      "status": "aktuell",
+      "region": "USA",
+      "kategorie": "Unternehmen",
+      "expose": "Rothschild & Co Redburn stufte Broadcom am 13. November von „Buy“ auf „Neutral“ ab und senkte das Kursziel von 595 auf 398 USD; begründet wurde das mit dem wachsenden Engagement in Finanzierungszusagen rund um künstliche Intelligenz. Die Aktie fiel um 4,76 % auf 347,01 USD, nachdem sie zuvor als möglicher Profiteur der Nvidia-Krise stark gestiegen war. Das Thema ist über Broadcom hinaus wichtig, weil es die Frage aufwirft, wie tragfähig die Finanzierung der KI-Investitionen ist.",
+      "auswirkungen": [
+        {
+          "szenario": "Finanzierungssorgen bleiben ein Einzelfall",
+          "wirkung": "Der Rücksetzer könnte sich als Gewinnmitnahme nach starkem Anstieg erweisen; die Mehrheit der Analysten bleibt positiv."
+        },
+        {
+          "szenario": "Zweifel greifen auf den ganzen KI-Sektor über",
+          "wirkung": "Chip-, Rechenzentrums- und Cloudwerte könnten breiter unter Druck geraten; defensive Branchen wären relativ im Vorteil."
+        }
+      ],
+      "ideen": [
+        "KI-Engagement über mehrere Unternehmen und Stufen der Wertschöpfungskette streuen.",
+        "Bei stark gelaufenen Titeln Teilgewinne erwägen statt alles auf eine Karte zu setzen."
+      ],
+      "quellen": [
+        {
+          "name": "GuruFocus – Broadcom nach Abstufung",
+          "url": "https://www.gurufocus.com/news/9198173/broadcom-avgo-shares-drop-65-after-rothschild-co-downgrade-to-neutral"
+        },
+        {
+          "name": "Invezz – KI-Finanzierungsrisiken",
+          "url": "https://invezz.com/news/2026/11/13/broadcom-stock-falls-6-as-this-firm-flags-ai-financing-risks/"
+        },
+        {
+          "name": "The Motley Fool – Warum die Broadcom-Aktie fiel",
+          "url": "https://www.fool.com/investing/2026/11/13/why-broadcom-stock-dove-today/"
+        }
+      ]
+    },
+    {
+      "titel": "China: Einzelhandel und Industrieproduktion; Japan: BIP im dritten Quartal",
+      "datum": "2026-11-16",
+      "status": "bevorstehend",
+      "region": "Asien",
+      "kategorie": "Konjunktur",
+      "expose": "Zum Wochenstart stehen laut dpa-AFX-Terminvorschau Japans vorläufiges Bruttoinlandsprodukt für das dritte Quartal (00:50 Uhr MEZ) sowie Chinas Einzelhandelsumsätze und Industrieproduktion für Oktober (03:00 Uhr MEZ) an. Die Daten geben Aufschluss über die Binnennachfrage in den beiden größten Volkswirtschaften Asiens – kurz vor dem APEC-Gipfel in Shenzhen.",
+      "auswirkungen": [
+        {
+          "szenario": "Daten besser als erwartet",
+          "wirkung": "Rückenwind für asiatische Aktien sowie für europäische Exporteure mit hohem China-Anteil (Autos, Luxusgüter, Maschinenbau)."
+        },
+        {
+          "szenario": "Daten enttäuschen",
+          "wirkung": "Belastung für China-nahe Zykliker und Rohstoffwerte; zugleich könnten Hoffnungen auf Konjunkturhilfen aus Peking zunehmen."
+        }
+      ],
+      "ideen": [
+        "China-Abhängigkeit der eigenen Positionen kennen.",
+        "Einzelne Monatsdaten nicht überinterpretieren."
+      ],
+      "quellen": [
+        {
+          "name": "boerse.de / dpa-AFX – Wochenvorschau bis 20.11.",
+          "url": "https://www.boerse.de/nachrichten/WOCHENVORSCHAU-Termine-bis-20-November-2026/38708357"
+        }
+      ]
+    },
+    {
+      "titel": "Nvidia-Quartalszahlen",
+      "datum": "2026-11-17",
+      "status": "bevorstehend",
+      "region": "USA",
+      "kategorie": "Quartalszahlen",
+      "expose": "Nvidia berichtet am 17. November nach US-Börsenschluss (laut Terminvorschau 22:20 Uhr MEZ) über das dritte Geschäftsquartal. Erwartet werden laut Analystenschätzungen rund 109 Mrd. USD Umsatz (+91,3 %) und 2,47 USD Gewinn je Aktie (+90,3 %). Es ist der erste Bericht unter Interimschefin Colette Kress; ein Stratege hält es für möglich, dass der Konzern wegen des Führungswechsels keinen Ausblick gibt.",
+      "auswirkungen": [
+        {
+          "szenario": "Starke Zahlen und klarer Ausblick",
+          "wirkung": "Der Fokus könnte sich wieder auf das Geschäft richten; Erholung bei Nvidia und Halbleiterwerten weltweit denkbar."
+        },
+        {
+          "szenario": "Gute Zahlen, aber kein oder vorsichtiger Ausblick",
+          "wirkung": "Die Unsicherheit bliebe; schwankungsreicher Handel im gesamten KI-Sektor wäre wahrscheinlich."
+        },
+        {
+          "szenario": "Enttäuschung bei Umsatz oder Margen",
+          "wirkung": "Deutlicher Druck auf Technologieindizes sowie Zulieferer wie TSMC, Samsung, SK Hynix oder ASML."
+        }
+      ],
+      "ideen": [
+        "Vor dem Termin keine großen Wetten eingehen – die Schwankungen nach Nvidia-Zahlen sind oft hoch.",
+        "Reaktion abwarten und erst danach Gewichtungen anpassen."
+      ],
+      "quellen": [
+        {
+          "name": "Newsquawk – US-Gewinnschätzungen 16.–20.11.",
+          "url": "https://www.newsquawk.com/headlines/weekly-us-earnings-estimates-16-20th-november-2026-ai-leader-nvda-the-highlight-with-retailers-also-in-focus"
+        },
+        {
+          "name": "CNBC – Wochenausblick 16.–20.11.",
+          "url": "https://www.cnbc.com/2026/11/13/stock-market-next-week-outlook-for-nov-16-20-2026.html"
+        },
+        {
+          "name": "boerse.de / dpa-AFX – Wochenvorschau bis 20.11.",
+          "url": "https://www.boerse.de/nachrichten/WOCHENVORSCHAU-Termine-bis-20-November-2026/38708357"
+        }
+      ]
+    },
+    {
+      "titel": "US-Einzelhandelsumsätze und Industrieproduktion; Zahlen von Home Depot und Disney",
+      "datum": "2026-11-17",
+      "status": "bevorstehend",
+      "region": "USA",
+      "kategorie": "Konjunktur",
+      "expose": "Am 17. November um 14:30 Uhr MEZ kommen die US-Einzelhandelsumsätze für Oktober, um 15:15 Uhr die Industrieproduktion. Am selben Tag berichten Home Depot und Walt Disney. Nach der hohen Inflation zeigt sich, ob die Verbraucher weiter ausgeben – wichtig für die Zinserwartungen vor der Fed-Sitzung am 9. Dezember.",
+      "auswirkungen": [
+        {
+          "szenario": "Robuster Konsum",
+          "wirkung": "Gut für Handels- und Konsumwerte, könnte aber die Erwartung weiterer Zinserhöhungen festigen und Anleihen wie Wachstumswerte belasten."
+        },
+        {
+          "szenario": "Schwacher Konsum",
+          "wirkung": "Belastung für zyklische Konsumtitel; Zinsängste könnten etwas nachlassen, defensive Werte wären relativ gefragt."
+        }
+      ],
+      "ideen": [
+        "Konsumwerte nicht nur nach einem Monatswert beurteilen – die Händlerzahlen der Woche (Home Depot, Target, Lowe's, Walmart) ergeben das vollständigere Bild."
+      ],
+      "quellen": [
+        {
+          "name": "CNBC – Wochenausblick 16.–20.11.",
+          "url": "https://www.cnbc.com/2026/11/13/stock-market-next-week-outlook-for-nov-16-20-2026.html"
+        },
+        {
+          "name": "boerse.de / dpa-AFX – Wochenvorschau bis 20.11.",
+          "url": "https://www.boerse.de/nachrichten/WOCHENVORSCHAU-Termine-bis-20-November-2026/38708357"
+        }
+      ]
+    },
+    {
+      "titel": "ZEW-Konjunkturerwartungen für Deutschland",
+      "datum": "2026-11-17",
+      "status": "bevorstehend",
+      "region": "Europa",
+      "kategorie": "Konjunktur",
+      "expose": "Das ZEW veröffentlicht am 17. November um 11:00 Uhr die Konjunkturerwartungen der Finanzmarktexperten für November. Der Index gilt als Frühindikator für die deutsche Wirtschaft und kommt unmittelbar nach dem DAX-Rekord.",
+      "auswirkungen": [
+        {
+          "szenario": "Erwartungen steigen",
+          "wirkung": "Stützt die Rally bei deutschen Zyklikern und Nebenwerten (MDAX, SDAX)."
+        },
+        {
+          "szenario": "Erwartungen fallen deutlich",
+          "wirkung": "Könnte Gewinnmitnahmen nach der Rekordwoche auslösen, vor allem bei Industrie- und Chemiewerten."
+        }
+      ],
+      "ideen": [
+        "Als Stimmungsbild einordnen, nicht als Handelssignal."
+      ],
+      "quellen": [
+        {
+          "name": "boerse.de / dpa-AFX – Wochenvorschau bis 20.11.",
+          "url": "https://www.boerse.de/nachrichten/WOCHENVORSCHAU-Termine-bis-20-November-2026/38708357"
+        }
+      ]
+    },
+    {
+      "titel": "Protokoll der Fed-Sitzung vom 28. Oktober",
+      "datum": "2026-11-18",
+      "status": "bevorstehend",
+      "region": "USA",
+      "kategorie": "Notenbank",
+      "expose": "Die US-Notenbank veröffentlicht am 18. November um 20:00 Uhr MEZ das Protokoll ihrer Sitzung vom 28. Oktober, bei der sie den Leitzins unverändert ließ. Nach den hohen Oktober-Inflationsdaten suchen Anleger darin Hinweise, wie breit die Unterstützung für eine Zinserhöhung am 9. Dezember ist und ob auch ein größerer Schritt diskutiert wurde.",
+      "auswirkungen": [
+        {
+          "szenario": "Protokoll klingt entschlossen (mehrere Erhöhungen denkbar)",
+          "wirkung": "Renditen und Dollar könnten steigen; Druck auf Technologie-, Immobilien- und Schwellenländeraktien, Rückenwind für Banken."
+        },
+        {
+          "szenario": "Protokoll klingt abwägend",
+          "wirkung": "Erleichterung bei zinssensitiven Werten möglich; der Schritt im Dezember bliebe dennoch wahrscheinlich."
+        }
+      ],
+      "ideen": [
+        "Zinsrisiken im Depot kennen; keine Positionen allein auf das Protokoll ausrichten.",
+        "Bei Anleihen kürzere Laufzeiten prüfen, wenn weitere Erhöhungen drohen."
+      ],
+      "quellen": [
+        {
+          "name": "CNBC – Wochenausblick 16.–20.11.",
+          "url": "https://www.cnbc.com/2026/11/13/stock-market-next-week-outlook-for-nov-16-20-2026.html"
+        },
+        {
+          "name": "boerse.de / dpa-AFX – Wochenvorschau bis 20.11.",
+          "url": "https://www.boerse.de/nachrichten/WOCHENVORSCHAU-Termine-bis-20-November-2026/38708357"
+        },
+        {
+          "name": "Babypips – Fed-Erwartungen nach den Verbraucherpreisen",
+          "url": "https://www.babypips.com/analysis/headline-us-cpi-october-fed-hike-december-2026-11-11"
+        }
+      ]
+    },
+    {
+      "titel": "Inflationsdaten: Großbritannien und Eurozone (Oktober)",
+      "datum": "2026-11-18",
+      "status": "bevorstehend",
+      "region": "Europa",
+      "kategorie": "Konjunktur",
+      "expose": "Am 18. November erscheinen um 08:00 Uhr MEZ die britischen Verbraucherpreise für Oktober und um 11:00 Uhr die endgültigen Verbraucherpreise der Eurozone. Nach dem Inflationsschub in den USA achten Anleger darauf, ob der Preisdruck auch in Europa zunimmt – das beeinflusst die Erwartungen an Bank of England und EZB.",
+      "auswirkungen": [
+        {
+          "szenario": "Inflation höher als erwartet",
+          "wirkung": "Steigende Renditen in Europa; Banken und Versicherer eher im Vorteil, Immobilien- und Versorgerwerte eher belastet."
+        },
+        {
+          "szenario": "Inflation stabil oder rückläufig",
+          "wirkung": "Europa könnte sich als Region mit geringerem Zinsdruck von den USA abheben – tendenziell positiv für europäische Aktien und Anleihen."
+        }
+      ],
+      "ideen": [
+        "Unterschiedliche Zinsrichtungen zwischen USA und Europa können Währungen bewegen – Fremdwährungsanteil im Depot beachten."
+      ],
+      "quellen": [
+        {
+          "name": "boerse.de / dpa-AFX – Wochenvorschau bis 20.11.",
+          "url": "https://www.boerse.de/nachrichten/WOCHENVORSCHAU-Termine-bis-20-November-2026/38708357"
+        }
+      ]
+    },
+    {
+      "titel": "Tencent-Quartalszahlen",
+      "datum": "2026-11-18",
+      "status": "bevorstehend",
+      "region": "Asien",
+      "kategorie": "Quartalszahlen",
+      "expose": "Tencent legt am 18. November die Zahlen zum dritten Quartal vor. Vorab-Schätzungen nennen rund 209,8 Mrd. CNY Umsatz (etwa +9 %); UBS rechnet mit einem leicht rückläufigen bereinigten Betriebsgewinn von 71 Mrd. CNY, weil KI-Investitionen die Margen belasten. Die Aktie schloss am 13. November bei 386,60 HKD nahe ihrem 52-Wochen-Tief von 375,20 HKD.",
+      "auswirkungen": [
+        {
+          "szenario": "Werbe- und Spielegeschäft überzeugen",
+          "wirkung": "Erholungspotenzial für Tencent und chinesische Internetwerte in Hongkong."
+        },
+        {
+          "szenario": "KI-Kosten drücken stärker als erwartet",
+          "wirkung": "Weiterer Druck auf den Hang Seng Tech; die Debatte um die Rendite von KI-Investitionen bekäme neue Nahrung."
+        }
+      ],
+      "ideen": [
+        "China-Technologie nur als Beimischung halten – politische und regulatorische Risiken bleiben hoch."
+      ],
+      "quellen": [
+        {
+          "name": "ad-hoc-news – Tencent: Q3-Zahlen am 18. November",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/tencent-stock-q3-results-set-for-november-18-as-ai-spending-weighs/70442175"
+        },
+        {
+          "name": "Futu – Vorschau auf das dritte Quartal",
+          "url": "https://news.futunn.com/en/post/1000871432/tencent-3q26-preview-core-business-slowdown-and-ai-investment-drag"
+        },
+        {
+          "name": "StockAnalysis – Tencent (0700)",
+          "url": "https://stockanalysis.com/quote/hkg/0700/"
+        }
+      ]
+    },
+    {
+      "titel": "APEC-Gipfel in Shenzhen – erwartetes Treffen Trump/Xi",
+      "datum": "2026-11-18",
+      "datum_bis": "2026-11-19",
+      "status": "bevorstehend",
+      "region": "Global",
+      "kategorie": "Politik",
+      "expose": "Am 18. und 19. November tagen die Staats- und Regierungschefs der APEC in Shenzhen. Am Rande wird ein Treffen von US-Präsident Trump und Chinas Staatschef Xi erwartet, ein formeller Termin ist in den ausgewerteten Quellen aber nicht bestätigt. Der Handelsfrieden gilt laut Berichten bis 10. Januar 2027; die Nvidia-Affäre hat in Washington Forderungen nach strengeren Chip-Exportkontrollen neu belebt.",
+      "auswirkungen": [
+        {
+          "szenario": "Handelsfrieden wird bekräftigt oder verlängert",
+          "wirkung": "Positiv für Halbleiter, Autos, Maschinenbau und chinesische Aktien; geringere Risikoaufschläge weltweit."
+        },
+        {
+          "szenario": "Kein Treffen oder Streit über Chips und Seltene Erden",
+          "wirkung": "Belastung für Technologie- und Exportwerte auf beiden Seiten; Rohstoff- und Rüstungstitel könnten relativ profitieren."
+        },
+        {
+          "szenario": "Unverbindliches Ergebnis",
+          "wirkung": "Geringe Marktwirkung; der Fokus bliebe auf Notenbanken und Unternehmenszahlen."
+        }
+      ],
+      "ideen": [
+        "Politische Schlagzeilen nicht handeln, bevor Ergebnisse feststehen.",
+        "Abhängigkeit einzelner Depotwerte vom China-Geschäft prüfen."
+      ],
+      "quellen": [
+        {
+          "name": "CNBC – Chip-Exportkontrollen vor dem Trump-Xi-Treffen",
+          "url": "https://www.cnbc.com/2026/11/12/nvidia-trump-jensen-chip-export-controls-china-xi-.html"
+        },
+        {
+          "name": "Foreign Policy – Trumps Asienreise",
+          "url": "https://foreignpolicy.com/2026/11/13/trump-asia-visit-apec-china-philippines-quad-asean-xi-putin/?tpcc=recirc_trending062921"
+        },
+        {
+          "name": "SCMP – Nvidia-Affäre und Handelsfrieden",
+          "url": "https://www.scmp.com/news/china/diplomacy/article/3373859/nvidia-scandal-may-test-fragile-us-china-truce-experts-say"
+        },
+        {
+          "name": "boerse.de / dpa-AFX – Wochenvorschau bis 20.11.",
+          "url": "https://www.boerse.de/nachrichten/WOCHENVORSCHAU-Termine-bis-20-November-2026/38708357"
+        }
+      ]
+    },
+    {
+      "titel": "Börsengang von Anthropic an der Nasdaq (laut Berichten)",
+      "datum": "2026-11-18",
+      "datum_bis": "2026-11-19",
+      "status": "bevorstehend",
+      "region": "USA",
+      "kategorie": "Börsengang",
+      "expose": "Der KI-Entwickler Anthropic will laut CNBC am 18. November den Ausgabepreis festlegen und ab 19. November unter dem Kürzel „ANT“ an der Nasdaq gehandelt werden; das Unternehmen selbst hat die Termine nicht offiziell bestätigt. Angeboten werden 825 Mio. Aktien in einer Spanne von 70 bis 78 USD, was Medienberichten zufolge einer Bewertung von rund 0,9 bis 1,4 Billionen USD entspricht (je nach Berechnungsbasis). Bis zu 20 % sollen an Privatanleger gehen; Berichte sprechen von einer mehrfachen Überzeichnung.",
+      "auswirkungen": [
+        {
+          "szenario": "Starkes Debüt",
+          "wirkung": "Könnte die Stimmung für KI-Werte nach der Nvidia-Krise stützen; beteiligte Großinvestoren und Partner dürften Beachtung finden."
+        },
+        {
+          "szenario": "Preis am oberen Ende, aber schwacher Handelsstart",
+          "wirkung": "Würde Zweifel an den Bewertungen im KI-Sektor verstärken und andere Technologiewerte belasten."
+        },
+        {
+          "szenario": "Verschiebung",
+          "wirkung": "Wäre ein Warnsignal für den gesamten Markt für Börsengänge."
+        }
+      ],
+      "ideen": [
+        "Neuemissionen schwanken in den ersten Tagen oft stark – nicht um jeden Preis am ersten Handelstag kaufen.",
+        "Bewertung und Haltefristen der Altaktionäre (Lock-up) prüfen, bevor man einsteigt."
+      ],
+      "quellen": [
+        {
+          "name": "CNBC – Preisspanne 70 bis 78 USD",
+          "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
+        },
+        {
+          "name": "TechCrunch – Bewertung",
+          "url": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/"
+        },
+        {
+          "name": "CNBC – Wochenausblick 16.–20.11.",
+          "url": "https://www.cnbc.com/2026/11/13/stock-market-next-week-outlook-for-nov-16-20-2026.html"
+        }
+      ]
+    },
+    {
+      "titel": "Walmart-Quartalszahlen (zuvor Target und Lowe's)",
+      "datum": "2026-11-19",
+      "status": "bevorstehend",
+      "region": "USA",
+      "kategorie": "Quartalszahlen",
+      "expose": "Walmart berichtet am 19. November vor US-Börsenbeginn über das dritte Geschäftsquartal; am 18. November legen bereits Target, Lowe's und TJX vor. Walmart hatte im August ein Umsatzplus von 3,0 bis 3,75 % und einen bereinigten Gewinn je Aktie von 0,62 bis 0,64 USD in Aussicht gestellt. Die Zahlen zeigen, wie die US-Verbraucher mit der wieder gestiegenen Inflation umgehen.",
+      "auswirkungen": [
+        {
+          "szenario": "Prognose übertroffen, Ausblick aufs Weihnachtsgeschäft positiv",
+          "wirkung": "Stützt defensive Konsumwerte und die Sicht, dass der US-Konsum robust bleibt."
+        },
+        {
+          "szenario": "Vorsichtiger Ausblick",
+          "wirkung": "Würde Sorgen um die Kaufkraft schüren; Belastung für Einzelhandel und zyklischen Konsum."
+        }
+      ],
+      "ideen": [
+        "Händlerzahlen im Zusammenhang lesen (Walmart, Target, Home Depot, Lowe's).",
+        "Defensive Konsumwerte können in unruhigen Phasen stabilisieren, sind aber teils hoch bewertet."
+      ],
+      "quellen": [
+        {
+          "name": "Hudson Labs – Walmart-Vorschau Q3",
+          "url": "https://www.hudson-labs.com/research/walmart-q3-2027-earnings-preview-wmt-revenue-guidance-key-factors"
+        },
+        {
+          "name": "TipRanks – Walmart-Termin",
+          "url": "https://www.tipranks.com/stocks/gb:0r1w/earnings"
+        },
+        {
+          "name": "CNBC – Wochenausblick 16.–20.11.",
+          "url": "https://www.cnbc.com/2026/11/13/stock-market-next-week-outlook-for-nov-16-20-2026.html"
+        },
+        {
+          "name": "boerse.de / dpa-AFX – Wochenvorschau bis 20.11.",
+          "url": "https://www.boerse.de/nachrichten/WOCHENVORSCHAU-Termine-bis-20-November-2026/38708357"
+        }
+      ]
+    },
+    {
+      "titel": "Japan: Verbraucherpreise für Oktober",
+      "datum": "2026-11-20",
+      "status": "bevorstehend",
+      "region": "Asien",
+      "kategorie": "Konjunktur",
+      "expose": "Am 20. November um 00:30 Uhr MEZ veröffentlicht Japan die Verbraucherpreise für Oktober. Die Daten sind ein wichtiger Baustein für die Zinserwartungen an die Bank of Japan und damit für den Yen – relevant für japanische Exporteure und Banken.",
+      "auswirkungen": [
+        {
+          "szenario": "Inflation höher als erwartet",
+          "wirkung": "Erwartungen an Zinserhöhungen in Japan steigen; Banken profitieren tendenziell, ein festerer Yen könnte Exporteure wie Autobauer belasten."
+        },
+        {
+          "szenario": "Inflation lässt nach",
+          "wirkung": "Der Yen könnte nachgeben – günstig für Exportwerte, weniger günstig für Bankaktien."
+        }
+      ],
+      "ideen": [
+        "Bei Japan-Investments das Währungsrisiko (Yen/Euro) mitdenken."
+      ],
+      "quellen": [
+        {
+          "name": "boerse.de / dpa-AFX – Wochenvorschau bis 20.11.",
+          "url": "https://www.boerse.de/nachrichten/WOCHENVORSCHAU-Termine-bis-20-November-2026/38708357"
+        },
+        {
+          "name": "CMC Markets – Wochenausblick",
+          "url": "https://www.cmcmarkets.com/en-ie/news-and-analysis/the-week-ahead-fed-minutes-japan-cpi-nvidia-earnings"
+        }
+      ]
+    }
+  ],
+  "kaufideen": {
+    "usa": [
+      {
+        "name": "Alphabet Inc. (Klasse A)",
+        "ticker": "GOOGL",
+        "boerse": "Nasdaq",
+        "branche": "Internet / Cloud",
+        "kennzahlen": {
+          "Kurs (13.11.)": "295,77 USD",
+          "KGV (2026 erw.)": "15,3",
+          "Analystenkonsens": "Kaufen (58 Analysten)",
+          "Ø Kursziel": "400,37 USD",
+          "52-Wochen-Spanne": "270,70–408,61 USD"
+        },
+        "begruendung": "Alphabet verdient sein Geld mit Suchmaschinenwerbung, YouTube und der Google Cloud und entwickelt eigene KI-Chips und -Modelle – das macht den Konzern weniger abhängig von Nvidia als viele Wettbewerber. Die Aktie notiert deutlich unter ihrem 52-Wochen-Hoch und ist laut MarketScreener mit einem erwarteten KGV von rund 15 für 2026 bewertet. Der Analystenkonsens lautet Kaufen mit einem durchschnittlichen Kursziel von gut 400 USD. Auslöser könnten die Nvidia-Zahlen und das Anthropic-Debüt sein, die den Blick auf KI-Geschäftsmodelle lenken.",
+        "risiken": "Schwäche des gesamten Technologiesektors, steigende Zinsen, Kartell- und Regulierungsverfahren, hohe KI-Investitionen ohne gesicherte Rendite.",
+        "quellen": [
+          {
+            "name": "Finviz – GOOGL",
+            "url": "https://finviz.com/stock?t=GOOGL"
+          },
+          {
+            "name": "MarketScreener – Alphabet",
+            "url": "https://www.marketscreener.com/quote/stock/ALPHABET-INC-24203373/"
+          }
+        ]
+      },
+      {
+        "name": "Microsoft Corp.",
+        "ticker": "MSFT",
+        "boerse": "Nasdaq",
+        "branche": "Software / Cloud",
+        "kennzahlen": {
+          "Kurs (13.11.)": "523,88 USD",
+          "Tagesveränderung": "+0,17 %",
+          "Analystenkonsens": "Strong Buy (58 Analysten)",
+          "Ø Kursziel": "636,12 USD",
+          "Spanne der Kursziele": "440–870 USD"
+        },
+        "begruendung": "Microsoft ist mit Office, Windows und der Azure-Cloud tief in Unternehmen verankert. Trotz des weltweiten 365-Ausfalls schloss die Aktie am Freitag leicht im Plus – ein Hinweis, dass der Markt den Vorfall bislang als einmalig einstuft. 58 von S&P Global befragte Analysten kommen im Schnitt auf „Strong Buy“ und ein Kursziel von gut 636 USD. Wer auf wiederkehrende Software-Erlöse statt auf Chip-Zyklen setzen will, findet hier eine Alternative innerhalb des KI-Themas.",
+        "risiken": "Wiederholte Dienstausfälle könnten Vertrauen kosten; hohe KI-Investitionen, steigende Zinsen und intensiver Wettbewerb im Cloud- und KI-Geschäft.",
+        "quellen": [
+          {
+            "name": "StockAnalysis – Analystenschätzungen MSFT",
+            "url": "https://stockanalysis.com/stocks/msft/forecast/"
+          },
+          {
+            "name": "RTE – Microsoft-Ausfall",
+            "url": "https://www.rte.ie/news/business/2026/1113/1599061-microsoft-tech-outage/"
+          }
+        ]
+      },
+      {
+        "name": "Broadcom Inc.",
+        "ticker": "AVGO",
+        "boerse": "Nasdaq",
+        "branche": "Halbleiter",
+        "kennzahlen": {
+          "Kurs (13.11.)": "347,01 USD",
+          "Tagesveränderung": "−4,76 %",
+          "KGV (letzte 12 Monate)": "44,07",
+          "Ø Kursziel": "rund 529 USD",
+          "Analysten": "29 von 31 mit Kaufempfehlung"
+        },
+        "begruendung": "Broadcom entwirft maßgeschneiderte KI-Chips und Netzwerktechnik für große Rechenzentrumsbetreiber und gilt als wichtigste Alternative zu Nvidia. Nach dem Huang-Rücktritt stieg die Aktie zunächst stark, am Freitag folgte nach einer Abstufung durch Rothschild & Co Redburn (Kursziel 398 USD) ein Rücksetzer. Die große Mehrheit der Analysten bleibt bei Kaufen, das durchschnittliche Kursziel liegt laut StockAnalysis bei rund 529 USD. Die Idee eignet sich nur für Anleger, die hohe Schwankungen aushalten – Einstiege eher gestaffelt.",
+        "risiken": "Hohe Bewertung; Engagement in KI-Finanzierungszusagen (Grund der Abstufung); Abhängigkeit von wenigen Großkunden; Sektorrisiko rund um Nvidia-Zahlen und Exportkontrollen.",
+        "quellen": [
+          {
+            "name": "The Motley Fool – Warum Broadcom fiel",
+            "url": "https://www.fool.com/investing/2026/11/13/why-broadcom-stock-dove-today/"
+          },
+          {
+            "name": "StockAnalysis – AVGO",
+            "url": "https://stockanalysis.com/stocks/avgo/"
+          },
+          {
+            "name": "GuruFocus – Abstufung",
+            "url": "https://www.gurufocus.com/news/9198173/broadcom-avgo-shares-drop-65-after-rothschild-co-downgrade-to-neutral"
+          }
+        ]
+      },
+      {
+        "name": "JPMorgan Chase & Co.",
+        "ticker": "JPM",
+        "boerse": "NYSE",
+        "branche": "Banken",
+        "kennzahlen": {
+          "Kurs (13.11.)": "344,66 USD",
+          "KGV": "14,38",
+          "Dividendenrendite": "1,79 % (erw. 1,93 %)",
+          "52-Wochen-Spanne": "279,10–366,50 USD"
+        },
+        "begruendung": "JPMorgan ist die größte US-Bank mit starkem Privatkunden-, Firmenkunden- und Kapitalmarktgeschäft. Steigende Leitzinsen – der Markt rechnet für Dezember mit einer Erhöhung – stützen tendenziell die Zinsmargen. Mit einem KGV von gut 14 ist die Aktie moderat bewertet und zahlt eine vierteljährliche Dividende. Sie passt zur aktuellen Umschichtung aus Technologie in andere Branchen.",
+        "risiken": "Höhere Zinsen können Kreditausfälle erhöhen und die Konjunktur bremsen; Kapitalmarktgeschäft schwankt; Aktie notiert nahe ihrem 52-Wochen-Hoch.",
+        "quellen": [
+          {
+            "name": "Yahoo Finance – JPM Kurshistorie",
+            "url": "https://finance.yahoo.com/quote/JPM/history/"
+          },
+          {
+            "name": "Morningstar – JPM",
+            "url": "https://www.morningstar.com/stocks/xnys/jpm/quote"
+          },
+          {
+            "name": "Robinhood – JPM",
+            "url": "https://robinhood.com/us/en/stocks/JPM/"
+          }
+        ]
+      },
+      {
+        "name": "Berkshire Hathaway Inc. (Klasse B)",
+        "ticker": "BRK.B",
+        "boerse": "NYSE",
+        "branche": "Beteiligungsholding / Versicherung",
+        "kennzahlen": {
+          "Kurs (13.11.)": "592,08 USD",
+          "Buchwert je Aktie": "357,73 USD",
+          "Barmittel je Aktie": "176,60 USD",
+          "Analystenkonsens": "Halten, Kursziel 555,51 USD"
+        },
+        "begruendung": "Berkshire bündelt Versicherungen, Eisenbahn, Energie, Industriebeteiligungen und ein großes Aktienportfolio. Die hohen Barmittel werfen bei steigenden Zinsen mehr ab und geben Spielraum für Zukäufe in schwächeren Marktphasen. Die breite Streuung macht die Aktie zu einem defensiveren Baustein, wenn Technologie schwankt. Bewertungsseitig ist sie kein Schnäppchen: Der Kurs liegt über dem durchschnittlichen Kursziel.",
+        "risiken": "Kurs über dem Analystenziel; keine Dividende; begrenztes Wachstum wegen der Größe; Nachfolge- und Kapitalallokationsfragen.",
+        "quellen": [
+          {
+            "name": "Finviz – BRK-B",
+            "url": "https://finviz.com/stock?t=BRK-B"
+          },
+          {
+            "name": "Yahoo Finance – BRK-B Kurshistorie",
+            "url": "https://ca.finance.yahoo.com/quote/BRK-B/history/"
+          }
+        ]
+      },
+      {
+        "name": "Exxon Mobil Corp.",
+        "ticker": "XOM",
+        "boerse": "NYSE",
+        "branche": "Öl und Gas",
+        "kennzahlen": {
+          "Kurs (13.11.)": "170,59 USD",
+          "KGV (erw.)": "11,85",
+          "Dividendenrendite": "rund 2,4–2,5 %",
+          "Ø Kursziel": "187,11 USD",
+          "52-Wochen-Spanne": "114,19–188,50 USD"
+        },
+        "begruendung": "Exxon Mobil fördert und verarbeitet Öl und Gas weltweit und zahlt eine Jahresdividende von 4,28 USD je Aktie. Energieaktien gelten als teilweiser Schutz, wenn Inflation und Rohstoffpreise steigen – ein Thema nach den jüngsten US-Preisdaten. Das erwartete KGV liegt bei knapp 12, das durchschnittliche Kursziel bei rund 187 USD. Barclays hob sein Ziel zuletzt auf 206 USD an, Bernstein senkte auf 186 USD.",
+        "risiken": "Starke Abhängigkeit vom Ölpreis; Konjunkturabschwung durch höhere Zinsen würde die Nachfrage drücken; langfristige Risiken durch Klimapolitik.",
+        "quellen": [
+          {
+            "name": "Bloomberg – XOM",
+            "url": "https://www.bloomberg.com/quote/XOM:US"
+          },
+          {
+            "name": "StockAnalysis – XOM",
+            "url": "https://stockanalysis.com/stocks/xom/"
+          },
+          {
+            "name": "Google Finance – XOM",
+            "url": "https://www.google.com/finance/quote/XOM:NYSE"
+          }
+        ]
+      },
+      {
+        "name": "Walmart Inc.",
+        "ticker": "WMT",
+        "boerse": "Nasdaq",
+        "branche": "Einzelhandel",
+        "kennzahlen": {
+          "Kurs (13.11.)": "128,09 USD",
+          "Ø Kursziel": "rund 132–133 USD",
+          "Prognose Q3 (ber. Gewinn je Aktie)": "0,62–0,64 USD",
+          "Nächste Zahlen": "19.11.2026"
+        },
+        "begruendung": "Walmart ist der größte Einzelhändler der Welt und gewinnt in Phasen hoher Inflation oft preisbewusste Kunden hinzu. Am 19. November folgen die Quartalszahlen; mehrere Banken (u. a. Wells Fargo, BofA, UBS, JPMorgan) haben ihre Kursziele zuletzt angehoben. Im Vorquartal übertraf der Konzern die Gewinnschätzungen bei 5,9 % Umsatzwachstum. Die Aktie ist ein defensiver Baustein, allerdings bereits ambitioniert bewertet.",
+        "risiken": "Hohe Bewertung (GuruFocus sieht die Aktie über ihrem fairen Wert); geringer Abstand zum durchschnittlichen Kursziel; Enttäuschungsgefahr bei den Zahlen; Margendruck durch Löhne und Zölle.",
+        "quellen": [
+          {
+            "name": "MarketBeat – Walmart am 13.11.",
+            "url": "https://www.marketbeat.com/instant-alerts/price-walmart-nasdaq-wmt-shares-up-15-on-analyst-upgrade-2026-11-13/"
+          },
+          {
+            "name": "Benzinga – Kursziele WMT",
+            "url": "https://www.benzinga.com/quote/wmt/price-targets"
+          },
+          {
+            "name": "Hudson Labs – Vorschau Q3",
+            "url": "https://www.hudson-labs.com/research/walmart-q3-2027-earnings-preview-wmt-revenue-guidance-key-factors"
+          }
+        ]
+      },
+      {
+        "name": "Johnson & Johnson",
+        "ticker": "JNJ",
+        "boerse": "NYSE",
+        "branche": "Pharma / Medizintechnik",
+        "kennzahlen": {
+          "Kurs (13.11., im Handelsverlauf)": "rund 286,75 USD",
+          "KGV (erw.)": "25,69",
+          "Dividendenrendite": "rund 1,9 %",
+          "Ø Kursziel": "279,41 USD",
+          "Ex-Dividende": "24.11.2026 (1,34 USD)"
+        },
+        "begruendung": "Johnson & Johnson kombiniert Arzneimittel und Medizintechnik und gilt als klassischer defensiver Wert mit verlässlicher Dividende. Die Aktie notiert nahe ihrem 52-Wochen-Hoch – ein Zeichen, dass Anleger in der aktuellen Technologie-Unruhe Stabilität suchen. 23 Analysten kommen im Schnitt auf „Kaufen“. Am 24. November wird die Aktie ex Dividende gehandelt.",
+        "risiken": "Kurs liegt über dem durchschnittlichen Kursziel – begrenztes rechnerisches Potenzial; Rechtsrisiken; Patentabläufe; Bewertung über dem historischen Durchschnitt.",
+        "quellen": [
+          {
+            "name": "StockAnalysis – JNJ",
+            "url": "https://stockanalysis.com/stocks/jnj/"
+          },
+          {
+            "name": "HeyGoTrade – JNJ",
+            "url": "https://www.heygotrade.com/en/us-stock/jnj/"
+          }
+        ]
+      },
+      {
+        "name": "Eli Lilly and Co.",
+        "ticker": "LLY",
+        "boerse": "NYSE",
+        "branche": "Pharma",
+        "kennzahlen": {
+          "Kurs (13.11.)": "1.443,50 USD",
+          "KGV (erw.)": "30,78",
+          "Ø Kursziel": "1.463,40 USD",
+          "Analystenkonsens": "Kaufen (31 Analysten)",
+          "52-Wochen-Spanne": "850,51–1.460,00 USD"
+        },
+        "begruendung": "Eli Lilly ist mit seinen Diabetes- und Abnehmmedikamenten einer der wachstumsstärksten Pharmakonzerne. Die Aktie stieg am Freitag gegen den Markttrend um rund 1,3 % und notiert nahe ihrem 52-Wochen-Hoch – Wachstum außerhalb des Technologiesektors ist derzeit gefragt. Der Konsens von 31 Analysten lautet Kaufen. Nach dem starken Lauf bietet sich eher ein gestaffelter Einstieg an.",
+        "risiken": "Hohe Bewertung und kaum Abstand zum durchschnittlichen Kursziel; Abhängigkeit von wenigen Präparaten; Preisdruck durch Politik und Wettbewerber.",
+        "quellen": [
+          {
+            "name": "StockAnalysis – LLY",
+            "url": "https://stockanalysis.com/stocks/lly/"
+          },
+          {
+            "name": "Yahoo Finance – LLY Kurshistorie",
+            "url": "https://finance.yahoo.com/quote/LLY/history/"
+          }
+        ]
+      },
+      {
+        "name": "Caterpillar Inc.",
+        "ticker": "CAT",
+        "boerse": "NYSE",
+        "branche": "Maschinenbau",
+        "kennzahlen": {
+          "Kurs (13.11.)": "597,34 USD",
+          "KGV": "23,74",
+          "Dividendenrendite": "1,04 %",
+          "Ø Kursziel": "823,41 USD",
+          "52-Wochen-Spanne": "537,08–1.073,46 USD"
+        },
+        "begruendung": "Caterpillar baut Bau- und Bergbaumaschinen sowie Motoren und Stromaggregate, die auch in Rechenzentren eingesetzt werden. Die Aktie hat sich von ihrem 52-Wochen-Hoch stark entfernt und notiert nahe dem unteren Ende der Jahresspanne. Das durchschnittliche Kursziel laut Yahoo Finance liegt deutlich über dem Kurs. Das spricht für eine antizyklische Idee – allerdings nur für risikobereite Anleger, denn der starke Rückgang zeigt, dass der Markt Risiken sieht.",
+        "risiken": "Deutlicher Kurssturz innerhalb eines Jahres – die Gründe sollten vor einem Kauf geprüft werden; konjunktur- und zinssensitiv; Abhängigkeit von Investitionen in Bau, Bergbau und Rechenzentren.",
+        "quellen": [
+          {
+            "name": "Investing.com – Caterpillar",
+            "url": "https://www.investing.com/equities/caterpillar"
+          },
+          {
+            "name": "Robinhood – CAT",
+            "url": "https://robinhood.com/us/en/stocks/CAT/"
+          },
+          {
+            "name": "Yahoo Finance – CAT",
+            "url": "https://finance.yahoo.com/quote/CAT/"
+          }
+        ]
+      }
+    ],
+    "europa": [
+      {
+        "name": "SAP SE",
+        "ticker": "SAP",
+        "boerse": "Xetra",
+        "branche": "Software",
+        "kennzahlen": {
+          "Kurs (12.11., Xetra-Schluss)": "212,55 EUR",
+          "Ø Kursziel": "243,36 EUR",
+          "Kursziel JPMorgan": "275 EUR (Overweight)",
+          "52-Wochen-Spanne": "127,50–219,65 EUR"
+        },
+        "begruendung": "SAP ist Europas größter Softwarekonzern und stellt seine Kunden schrittweise auf Cloud-Abonnements um. JPMorgan hat die Aktie auf „Overweight“ hochgestuft und das Kursziel von 175 auf 275 EUR angehoben, begründet mit produktiv einsetzbarer KI und Cloud-Wachstum. Der Konzern kauft zudem weiter eigene Aktien zurück. Die Aktie notiert nahe ihrem 52-Wochen-Hoch, das durchschnittliche Kursziel liegt rund 14 % darüber.",
+        "risiken": "Technologie-Sektorschwäche kann abfärben; Bewertung nach starker Erholung; Wettbewerb durch KI-Anbieter; Ausführungsrisiken bei der Cloud-Umstellung.",
+        "quellen": [
+          {
+            "name": "ad-hoc-news – JPMorgan erhöht Kursziel",
+            "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/sap-aktie-jpmorgan-erhoeht-kursziel-auf-275-euro/70491486"
+          },
+          {
+            "name": "Handelsdesk – SAP",
+            "url": "https://handelsdesk.de/aktien/sap.xetra"
+          },
+          {
+            "name": "ad-hoc-news – Rückkäufe laufen weiter",
+            "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/sap-aktie-astrazeneca-setzt-auf-cloud-erp-rueckkaeufe-laufen-weiter/70504037"
+          }
+        ]
+      },
+      {
+        "name": "Siemens AG",
+        "ticker": "SIE",
+        "boerse": "Xetra",
+        "branche": "Industrie / Automatisierung",
+        "kennzahlen": {
+          "Kurs (13.11.)": "279,40 EUR",
+          "Dividendenvorschlag": "5,50 EUR je Aktie",
+          "Prognose Gewinn je Aktie 2026/27": "10,20–10,80 EUR",
+          "Konsens-Kursziel": "315 EUR"
+        },
+        "begruendung": "Siemens hat für 2025/26 ein Rekordjahr mit 83,4 Mrd. EUR Umsatz gemeldet und stellt für 2026/27 ein vergleichbares Wachstum von neun bis elf Prozent in Aussicht. Die Dividende soll auf 5,50 EUR steigen; zudem sollen 34,1 % der Anteile an Siemens Healthineers an die Aktionäre übertragen werden. Der Konzern profitiert von Automatisierung, Elektrifizierung und Rechenzentrumsbau. Nach den Zahlen notiert die Aktie knapp unter ihrem Rekordhoch von 291,70 EUR.",
+        "risiken": "Konjunkturabhängigkeit, vor allem in China und der Industrieautomatisierung; Kurs nahe Rekordhoch; Umsetzungsrisiken bei der Healthineers-Abspaltung.",
+        "quellen": [
+          {
+            "name": "MarketScreener – Siemens",
+            "url": "https://www.marketscreener.com/quote/stock/SIEMENS-AG-56358595/"
+          },
+          {
+            "name": "Der Aktionär – Siemens mit Zahlen",
+            "url": "https://www.deraktionaer.de/artikel/aktien/siemens-mit-zahlen-rekordauftraege-hoehere-dividende-die-details-20440533.html"
+          },
+          {
+            "name": "Börse Express – Siemens",
+            "url": "https://www.boerse-express.com/boerse/aktie/siemens-ag-na+tts-4805490"
+          }
+        ]
+      },
+      {
+        "name": "Allianz SE",
+        "ticker": "ALV",
+        "boerse": "Xetra",
+        "branche": "Versicherung",
+        "kennzahlen": {
+          "Kurs (13.11., 11:29 Uhr, Tradegate)": "477,70 EUR",
+          "Dividendenrendite": "rund 3,7 % (17,10 EUR erwartet)",
+          "Kursziel ODDO BHF": "490 EUR",
+          "Fairer Wert DZ Bank": "508 EUR",
+          "Konsens (Median)": "450 EUR"
+        },
+        "begruendung": "Die Allianz ist Europas größter Versicherer mit zusätzlichem Vermögensverwaltungsgeschäft (Pimco, Allianz Global Investors). Nach den Quartalszahlen hoben mehrere Häuser ihre Kursziele an; Berenberg verweist auf mehr Gewinn, Barmittel und Aktienrückkäufe. Höhere Zinsen verbessern tendenziell die Anlageerträge. Für Einkommensanleger ist die Dividendenrendite von rund 3,7 % interessant.",
+        "risiken": "Kurs liegt bereits über dem Median der Kursziele; Analystenmeinungen streuen stark (Barclays: 351 EUR, Underweight); Großschäden und Kapitalmarktschwankungen.",
+        "quellen": [
+          {
+            "name": "wallstreet-online – Berenberg stuft Allianz auf Buy",
+            "url": "https://www.wallstreet-online.de/nachricht/21688692-berenberg-stuft-allianz-se-buy"
+          },
+          {
+            "name": "goldesel – ODDO BHF hebt Kursziel",
+            "url": "https://goldesel.de/aktien/news/allianz-aktie-oddo-bhf-hebt-kursziel-auf-490-euro-und-stuft-auf-outperform"
+          },
+          {
+            "name": "broker-test.de – 3,7 % Dividendenrendite",
+            "url": "https://broker-test.de/trading-news/aktie-im-fokus-allianz-mit-37-dividendenrendite-charttechnisch-weiteres-kurspotential-moeglich/"
+          }
+        ]
+      },
+      {
+        "name": "Münchener Rück (Munich Re)",
+        "ticker": "MUV2",
+        "boerse": "Xetra",
+        "branche": "Rückversicherung",
+        "kennzahlen": {
+          "Kurs (13.11., finanzen.net)": "569,00 EUR",
+          "Gewinnziel 2026": "6,6 Mrd. EUR (zuvor 6,3)",
+          "KGV (2026 erw.)": "10,6",
+          "Dividende für 2025": "24,00 EUR",
+          "Ø Kursziel": "553,86 EUR"
+        },
+        "begruendung": "Munich Re hat am 12. November das Gewinnziel für 2026 von 6,3 auf 6,6 Mrd. EUR angehoben; nach neun Monaten stehen 5,667 Mrd. EUR zu Buche. Das erwartete KGV von rund 10,6 ist niedrig, Analysten rechnen für 2026 mit einer weiter steigenden Dividende. Der Kursrücksetzer nach den Zahlen (JPMorgan stufte auf „Neutral“ ab) könnte für langfristige Dividendenanleger ein Einstiegsniveau sein. Die Kursangaben vom Freitag weichen je nach Quelle ab – vor einer Order aktuellen Kurs prüfen.",
+        "risiken": "Quartalsgewinn zuletzt rückläufig (1,742 nach 1,997 Mrd. EUR); sinkende Rückversicherungspreise; Großschäden; Kurs über dem durchschnittlichen Kursziel.",
+        "quellen": [
+          {
+            "name": "finanzen.net – Kursziele Munich Re",
+            "url": "https://www.finanzen.net/kursziele/munich_re"
+          },
+          {
+            "name": "Investing.com – Q3-Gewinn sinkt, Jahresziel 6,6 Mrd.",
+            "url": "https://de.investing.com/news/stock-market-news/munchenerruckaktie-q3gewinn-sinkt--jahresziel-von-66-mrd-euro-steht-3763467"
+          },
+          {
+            "name": "aktiencheck.de – Gewinnziel angehoben",
+            "url": "https://aktiencheck.de/artikel/munich-re-aktie-im-fokus-gewinnziel-angehoben-ist-das-die-chance-aktien-zu-kaufe"
+          }
+        ]
+      },
+      {
+        "name": "E.ON SE",
+        "ticker": "EOAN",
+        "boerse": "Xetra",
+        "branche": "Versorger / Netze",
+        "kennzahlen": {
+          "Kurs (11.11., Xetra-Schluss)": "18,82 EUR",
+          "Dividende für 2025": "0,57 EUR je Aktie",
+          "Prognose 2026 (ber. EBITDA)": "9,4–9,6 Mrd. EUR",
+          "Kursziele": "19 EUR (RBC) bis 22,70 EUR (Jefferies)"
+        },
+        "begruendung": "E.ON betreibt Strom- und Gasnetze und verdient überwiegend reguliert – das Geschäft ist wenig konjunkturabhängig. Mit den Neunmonatszahlen (bereinigter Konzernüberschuss +4 % auf 2,2 Mrd. EUR) bestätigte der Konzern die Jahresziele. Der Netzausbau für die Energiewende sorgt für planbares Wachstum. Zusätzliche Fantasie liefern Berichte, wonach der Bund den Urenco-Anteil von E.ON und RWE übernehmen will.",
+        "risiken": "Steigende Zinsen belasten kapitalintensive Versorger; Regulierungsentscheidungen zu Netzrenditen; Analysten uneinheitlich (mehrere Halte-Empfehlungen); Urenco-Verkauf nicht bestätigt.",
+        "quellen": [
+          {
+            "name": "ad-hoc-news – E.ON bestätigt Prognose",
+            "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/e-on-aktie-bestaetigt-prognose-und-haelt-netzausbau-auf-kurs/70492888"
+          },
+          {
+            "name": "wallstreet-online – E.ON überrascht",
+            "url": "https://www.wallstreet-online.de/nachricht/21674643-zahlen-ueberraschen-analysten-eon-ueberrascht-boerse-trotz-gewinnrueckgang-lichtblick"
+          },
+          {
+            "name": "boersennews.de – Kursziele",
+            "url": "https://www.boersennews.de/nachrichten/artikel/boersennews/anders-als-rwe-e-on-nach-zahlen-unter-druck-die-naechsten-kursziele/5349167/"
+          },
+          {
+            "name": "aktiencheck.de – Urenco",
+            "url": "https://aktiencheck.de/artikel/dax-gewinner-eon-245-auf-1943-euro-urenco-milliarden-locken"
+          }
+        ]
+      },
+      {
+        "name": "ASML Holding N.V.",
+        "ticker": "ASML",
+        "boerse": "Euronext Amsterdam",
+        "branche": "Halbleiter-Ausrüster",
+        "kennzahlen": {
+          "Kurs (13.11.)": "1.338,80 EUR",
+          "Tagesveränderung": "−2,76 %",
+          "KGV (erw., Stand 12.11.)": "rund 23",
+          "Ø Kursziel (US-Notierung)": "über 2.100 USD bei rund 1.495 USD Kurs"
+        },
+        "begruendung": "ASML ist der einzige Hersteller von EUV-Lithografieanlagen, ohne die modernste Chips nicht gefertigt werden können. Das macht den Konzern weniger abhängig davon, welcher Chipdesigner das KI-Rennen gewinnt. Nach dem Rücksetzer der vergangenen Tage liegt das erwartete KGV laut Motley Fool bei rund 23, die Mehrheit der Analysten rät zum Kauf. Die Nvidia-Zahlen am 17. November und der APEC-Gipfel sind kurzfristige Stimmungstreiber.",
+        "risiken": "Exportbeschränkungen gegenüber China; zyklische Investitionen der Chiphersteller; hohe Schwankungen (am 5.11. −9,33 % an einem Tag); Sektorstimmung rund um Nvidia.",
+        "quellen": [
+          {
+            "name": "Morningstar – ASML (Amsterdam)",
+            "url": "https://www.morningstar.com/stocks/xams/asml/quote"
+          },
+          {
+            "name": "The Motley Fool – ASML",
+            "url": "https://www.fool.com/investing/2026/11/12/wall-streets-next-blockbuster-stock-split-could-co/"
+          },
+          {
+            "name": "StockAnalysis – ASML Kurshistorie",
+            "url": "https://stockanalysis.com/stocks/asml/history/"
+          }
+        ]
+      },
+      {
+        "name": "Shell plc",
+        "ticker": "SHEL",
+        "boerse": "London Stock Exchange",
+        "branche": "Öl und Gas",
+        "kennzahlen": {
+          "Kurs (13.11., London)": "3.719,50 Pence",
+          "Tagesveränderung": "+1,49 %",
+          "Dividendenrendite": "rund 3,1–3,2 %",
+          "Ø Kursziel (US-Notierung)": "110,87 USD bei rund 99 USD Kurs"
+        },
+        "begruendung": "Shell ist einer der größten Öl- und Gaskonzerne und weltweit führend im Flüssiggasgeschäft. Der Konzern schüttet eine laufende Dividende aus und kauft fortlaufend eigene Aktien zurück. Energieaktien bieten einen gewissen Ausgleich, wenn Inflation und Rohstoffpreise steigen. Das durchschnittliche Kursziel liegt rund 11 bis 12 % über dem aktuellen Kurs der US-Notierung.",
+        "risiken": "Ölpreisabhängigkeit; Angaben zum KGV weichen je nach Quelle stark ab (rund 8,6 bis 15,6); Währungsrisiko (Pfund/US-Dollar); Energiewende und Regulierung.",
+        "quellen": [
+          {
+            "name": "MarketScreener – Shell Kurse London",
+            "url": "https://www.marketscreener.com/quote/stock/SHELL-PLC-130945922/quotes/"
+          },
+          {
+            "name": "HeyGoTrade – SHEL",
+            "url": "https://www.heygotrade.com/en/us-stock/shel/"
+          },
+          {
+            "name": "Seeking Alpha – SHEL",
+            "url": "https://seekingalpha.com/symbol/SHEL"
+          }
+        ]
+      },
+      {
+        "name": "Nestlé S.A.",
+        "ticker": "NESN",
+        "boerse": "SIX Swiss Exchange",
+        "branche": "Nahrungsmittel",
+        "kennzahlen": {
+          "Kurs (13.11., 16:28 Uhr)": "87,55 CHF",
+          "52-Wochen-Hoch": "87,58 CHF (13.11.2026)",
+          "52-Wochen-Tief": "70,29 CHF (26.01.2026)",
+          "Gewinnschätzung 2026": "4,51 CHF je Aktie"
+        },
+        "begruendung": "Nestlé ist der weltgrößte Nahrungsmittelkonzern mit Marken von Nescafé bis Purina. Die Aktie erreichte am Freitag ein neues 52-Wochen-Hoch – defensive Konsumwerte sind in der aktuellen Technologie-Unruhe gefragt. Analysten erwarten für 2026 einen Gewinn von 4,51 CHF je Aktie. JPMorgan stuft die Aktie mit „Buy“ ein, Bernstein mit „Hold“.",
+        "risiken": "Rohstoffkosten und Preisdruck im Handel; schwaches Mengenwachstum; Frankenstärke; nach dem Anstieg aufs Jahreshoch ist kurzfristig weniger Luft.",
+        "quellen": [
+          {
+            "name": "finanzen.ch – Nestlé am Freitagnachmittag höher",
+            "url": "https://www.finanzen.ch/nachrichten/aktien/nestle-aktie-kursbewegung-13-11-2026-1031803604"
+          },
+          {
+            "name": "finanzen.ch – Nestlé am Freitagvormittag",
+            "url": "https://www.finanzen.ch/nachrichten/aktien/nestle-aktie-kursbewegung-13-11-2026-1031805292"
+          }
+        ]
+      },
+      {
+        "name": "AstraZeneca PLC",
+        "ticker": "AZN",
+        "boerse": "London Stock Exchange",
+        "branche": "Pharma",
+        "kennzahlen": {
+          "Kurs (13.11.)": "13.982 Pence",
+          "KGV": "26,19",
+          "Dividendenrendite": "1,72 %",
+          "Ø Kursziel": "16.316,51 Pence",
+          "52-Wochen-Spanne": "9.892–15.732 Pence"
+        },
+        "begruendung": "AstraZeneca ist stark in der Krebsmedizin sowie bei Herz-Kreislauf- und Atemwegserkrankungen. Das Pharmageschäft ist wenig konjunkturabhängig und bietet damit ein Gegengewicht zu zyklischen und Technologiewerten. Das durchschnittliche Analystenkursziel laut Yahoo Finance liegt rund 17 % über dem Kurs. Die Aktie notiert im oberen Bereich, aber unter dem Hoch ihrer Jahresspanne.",
+        "risiken": "Studienrückschläge und Patentabläufe; politische Eingriffe in Arzneimittelpreise, vor allem in den USA; Währungsrisiko (Pfund).",
+        "quellen": [
+          {
+            "name": "Yahoo Finance – AZN.L",
+            "url": "https://ca.finance.yahoo.com/quote/AZN.L/"
+          },
+          {
+            "name": "AJ Bell – AstraZeneca",
+            "url": "https://www.ajbell.co.uk/market-research/LSE:AZN"
+          }
+        ]
+      },
+      {
+        "name": "Rheinmetall AG",
+        "ticker": "RHM",
+        "boerse": "Xetra",
+        "branche": "Rüstung",
+        "kennzahlen": {
+          "Kurs (onvista, Abruf 14.11.)": "763,30 EUR",
+          "KGV": "27,2",
+          "Ø Kursziel (6 Banken)": "1.287 EUR",
+          "Spanne einzelner Kursziele": "900–1.650 EUR"
+        },
+        "begruendung": "Rheinmetall profitiert von steigenden Verteidigungsausgaben in Europa und meldet einen hohen Auftragsbestand. Die Aktie ist deutlich zurückgekommen; die Kursziele der Banken reichen von 900 EUR (BofA, Berenberg) bis 1.650 EUR (Deutsche Bank). Ende November steht ein Kapitalmarkttag an, bei dem laut Berichten auch niedrigere Ziele für 2030 möglich sind. Die Idee ist spekulativ und eher für einen gestaffelten Einstieg nach dem Kapitalmarkttag geeignet.",
+        "risiken": "Hohe Schwankungen; mögliche Senkung der Langfristziele; politische Abhängigkeit von Rüstungsbudgets; Friedensverhandlungen könnten die Stimmung drehen. Das genaue Datum des Kapitalmarkttags ist je nach Quelle unterschiedlich angegeben.",
+        "quellen": [
+          {
+            "name": "onvista – Rheinmetall",
+            "url": "https://www.onvista.de/aktien/Rheinmetall-Aktie-DE0007030009"
+          },
+          {
+            "name": "Depot-Navigator – Rheinmetall",
+            "url": "https://www.depot-navigator.de/aktien/rheinmetall/"
+          },
+          {
+            "name": "stock-world.de – Kapitalmarkttag",
+            "url": "https://www.stock-world.de/rheinmetall-aktie-bewaehrungsprobe-kapitalmarkttag/"
+          }
+        ]
+      }
+    ],
+    "asien": [
+      {
+        "name": "Taiwan Semiconductor Manufacturing (TSMC)",
+        "ticker": "2330",
+        "boerse": "Taiwan Stock Exchange",
+        "branche": "Halbleiter-Auftragsfertigung",
+        "kennzahlen": {
+          "Kurs (13.11.)": "2.350 TWD",
+          "Tagesveränderung": "+0,43 %",
+          "KGV (2026 erw.)": "21,3",
+          "KGV (2027 erw.)": "15,8",
+          "Dividendenrendite (2026 erw.)": "1,15 %"
+        },
+        "begruendung": "TSMC fertigt die modernsten Chips für nahezu alle großen Entwickler – von Nvidia über AMD und Broadcom bis Apple. Damit profitiert der Konzern vom KI-Ausbau, unabhängig davon, welcher Chipdesigner Marktanteile gewinnt. Die Aktie legte am Freitag gegen den regionalen Trend leicht zu. Das erwartete KGV sinkt laut MarketScreener von gut 21 für 2026 auf knapp 16 für 2027.",
+        "risiken": "Geopolitisches Risiko Taiwan; Exportkontrollen und Zölle; Abhängigkeit von KI-Investitionen; hohe Schwankungen (am 6.11. −4,69 %).",
+        "quellen": [
+          {
+            "name": "MarketScreener – TSMC",
+            "url": "https://www.marketscreener.com/quote/stock/TSMC-TAIWAN-SEMICONDUCTOR-6492349/"
+          },
+          {
+            "name": "TipRanks – TSMC Kurshistorie",
+            "url": "https://www.tipranks.com/stocks/tw:2330/historical-prices"
+          }
+        ]
+      },
+      {
+        "name": "Samsung Electronics Co., Ltd.",
+        "ticker": "005930",
+        "boerse": "Korea Exchange",
+        "branche": "Halbleiter / Elektronik",
+        "kennzahlen": {
+          "Kurs (13.11.)": "206.000 KRW",
+          "Tagesveränderung": "−0,96 %",
+          "KGV": "9,17",
+          "Dividendenrendite": "2,87 %",
+          "52-Wochen-Spanne": "94.500–374.500 KRW"
+        },
+        "begruendung": "Samsung ist der weltgrößte Hersteller von Speicherchips und zugleich bei Smartphones und Displays führend. Die Aktie hat sich von ihrem 52-Wochen-Hoch deutlich entfernt und ist mit einem KGV von gut 9 günstig bewertet. Nach dem Huang-Rücktritt verkauften ausländische Anleger koreanische Chipaktien. Für Anleger mit langem Atem könnte der Rückgang ein Einstieg in den Speicherzyklus sein – die Nvidia-Zahlen am 17. November sind der nächste Prüfstein.",
+        "risiken": "Stark zyklisches Speichergeschäft; Abhängigkeit von KI-Nachfrage; Wettbewerb mit SK Hynix; Won-Währungsrisiko; hohe Kursschwankungen.",
+        "quellen": [
+          {
+            "name": "Morningstar – Samsung Electronics",
+            "url": "https://www.morningstar.com/stocks/xkrx/005930/quote"
+          },
+          {
+            "name": "Yahoo Finance – Samsung nach Nvidia-Chefwechsel",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/samsung-electronics-stocks-move-lower-183110049.html"
+          },
+          {
+            "name": "Google Finance – 005930",
+            "url": "https://www.google.com/finance/quote/005930:KRX"
+          }
+        ]
+      },
+      {
+        "name": "Toyota Motor Corp.",
+        "ticker": "7203",
+        "boerse": "Tokyo Stock Exchange",
+        "branche": "Automobil",
+        "kennzahlen": {
+          "Kurs (13.11.)": "3.418 JPY",
+          "KGV (Stand 10.11.)": "10,0",
+          "Dividende": "100 JPY (rund 2,9 %)",
+          "Ø Kursziel": "3.766,58 JPY",
+          "Kurs-Buchwert-Verhältnis": "1,1"
+        },
+        "begruendung": "Toyota ist der größte Autobauer der Welt und mit seinem Hybrid-Schwerpunkt breit aufgestellt. Die Aktie ist mit einem KGV von rund 10 und einem Kurs-Buchwert-Verhältnis von 1,1 moderat bewertet und zahlt 100 JPY Dividende. Ein schwächerer Yen stützt die Exporterträge; die japanischen Inflationsdaten am 20. November sind dafür ein wichtiger Termin. Das durchschnittliche Kursziel liegt rund 10 % über dem Kurs.",
+        "risiken": "Zölle und Handelspolitik (APEC-Gipfel); Yen-Aufwertung bei Zinserhöhungen der Bank of Japan; Wettbewerb durch chinesische Elektroautohersteller.",
+        "quellen": [
+          {
+            "name": "Investing.com – Toyota Kurshistorie",
+            "url": "https://www.investing.com/equities/toyota-motor-corporation-historical-data"
+          },
+          {
+            "name": "CNBC – 7203.T",
+            "url": "https://www.cnbc.com/quotes/7203.T-JP"
+          },
+          {
+            "name": "MSN Money – Toyota",
+            "url": "https://www.msn.com/en-us/money/stockdetails/7203-stock/fi-a9gdp2"
+          },
+          {
+            "name": "Global Banking and Finance – 7203.T",
+            "url": "https://www.globalbankingandfinance.com/markets/7203-t/"
+          }
+        ]
+      },
+      {
+        "name": "Sony Group Corp.",
+        "ticker": "6758",
+        "boerse": "Tokyo Stock Exchange",
+        "branche": "Unterhaltung / Elektronik",
+        "kennzahlen": {
+          "Kurs (12.11.)": "4.281 JPY",
+          "Tagesveränderung (12.11.)": "+1,9 %",
+          "KGV (normalisiert)": "20,3",
+          "52-Wochen-Spanne": "3.043–4.776 JPY"
+        },
+        "begruendung": "Sony verdient mit Spielen (PlayStation), Musik, Film und Bildsensoren und ist damit breiter aufgestellt als reine Hardwarehersteller. Der Konzern meldete ein besseres erstes Halbjahr und hob den Jahresausblick an; die Aktie reagierte mit Kursgewinnen. Wiederkehrende Erlöse aus Musik- und Spieleabos machen das Geschäft berechenbarer. Der Analystenkonsens laut StockAnalysis lautet „Buy“.",
+        "risiken": "Konsumabhängigkeit; Zyklus im Spiele- und Sensorengeschäft; Yen-Schwankungen; Schlusskurs vom 13.11. lag bei der Recherche nicht vor.",
+        "quellen": [
+          {
+            "name": "Morningstar – Sony Group",
+            "url": "https://www.morningstar.com/stocks/xtks/6758/quote"
+          },
+          {
+            "name": "StockAnalysis – Sony",
+            "url": "https://stockanalysis.com/stocks/sony/"
+          }
+        ]
+      },
+      {
+        "name": "Mitsubishi UFJ Financial Group",
+        "ticker": "8306",
+        "boerse": "Tokyo Stock Exchange",
+        "branche": "Banken",
+        "kennzahlen": {
+          "Kurs (13.11.)": "3.475 JPY",
+          "Halbjahresgewinn": "1,63 Bio. JPY (+26 %)",
+          "Gewinnziel Geschäftsjahr": "2,8 Bio. JPY (zuvor 2,7)",
+          "Dividendenprognose": "100 JPY je Aktie",
+          "Aktienrückkauf": "bis 200 Mrd. JPY"
+        },
+        "begruendung": "MUFG ist Japans größte Bank und hat am 13. November einen Rekord-Halbjahresgewinn gemeldet; der Zinsüberschuss stieg um 29 %. Das Jahresziel und die Dividendenprognose wurden angehoben, dazu kommt ein Rückkauf von bis zu 70 Mio. Aktien ab 16. November. Steigende Zinsen in Japan verbessern die Margen nach Jahren der Nullzinspolitik. Dass die Aktie am Zahlentag leicht nachgab, deutet darauf hin, dass viel Gutes bereits eingepreist ist.",
+        "risiken": "Erwartungen bereits hoch; Kreditrisiken bei Konjunkturabschwung; Abhängigkeit von der Zinspolitik der Bank of Japan; Yen-Risiko für Euro-Anleger.",
+        "quellen": [
+          {
+            "name": "Investing.com – MUFG hebt Gewinnziel an",
+            "url": "https://uk.investing.com/news/earnings/mufg-raises-annual-profit-target-announces-200-billion-yen-buyback-4979934"
+          },
+          {
+            "name": "GuruFocus – Rekordgewinn",
+            "url": "https://www.gurufocus.com/news/9198138/mitsubishi-ufj-stocks-move-lower-as-record-profit-lifts-forecast-to-28-trillion"
+          },
+          {
+            "name": "MarketScreener – Aktienrückkauf",
+            "url": "https://www.marketscreener.com/news/mitsubishi-ufj-financial-group-inc-announces-an-equity-buyback-for-70-000-000-shares-representing-ce785ed9dc8ff624"
+          }
+        ]
+      },
+      {
+        "name": "Tencent Holdings Ltd.",
+        "ticker": "0700",
+        "boerse": "Hong Kong Stock Exchange",
+        "branche": "Internet / Spiele",
+        "kennzahlen": {
+          "Kurs (13.11.)": "386,60 HKD",
+          "Tagesveränderung": "−3,06 %",
+          "KGV (erw.)": "11,67",
+          "Ø Kursziel": "640,83 HKD (43 Analysten)",
+          "Nächste Zahlen": "18.11.2026"
+        },
+        "begruendung": "Tencent betreibt mit WeChat das wichtigste soziale Netzwerk Chinas und ist einer der größten Spieleanbieter der Welt. Die Aktie notiert nahe ihrem 52-Wochen-Tief von 375,20 HKD und ist mit einem erwarteten KGV von knapp 12 bewertet. 43 Analysten kommen im Schnitt auf „Strong Buy“ mit einem Kursziel deutlich über dem aktuellen Kurs. Die Quartalszahlen am 18. November und der APEC-Gipfel könnten die Richtung vorgeben – Einstieg eher nach den Zahlen oder gestaffelt.",
+        "risiken": "KI-Investitionen drücken laut Vorab-Schätzungen die Margen; chinesische Regulierung; US-chinesische Spannungen; die Aktie hat sich seit dem Jahreshoch (660 HKD) stark verbilligt, was auf anhaltende Skepsis hindeutet.",
+        "quellen": [
+          {
+            "name": "StockAnalysis – Tencent (0700)",
+            "url": "https://stockanalysis.com/quote/hkg/0700/"
+          },
+          {
+            "name": "ad-hoc-news – Q3-Zahlen am 18. November",
+            "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/tencent-stock-q3-results-set-for-november-18-as-ai-spending-weighs/70442175"
+          }
+        ]
+      },
+      {
+        "name": "Alibaba Group Holding Ltd.",
+        "ticker": "9988",
+        "boerse": "Hong Kong Stock Exchange",
+        "branche": "Onlinehandel / Cloud",
+        "kennzahlen": {
+          "Kurs (13.11.)": "90,55 HKD",
+          "Tagesveränderung": "rund −3,5 %",
+          "KGV (erw.)": "13,00",
+          "52-Wochen-Spanne": "88,65–174,20 HKD",
+          "Analystenkonsens": "Strong Buy (29 Analysten)"
+        },
+        "begruendung": "Alibaba ist Chinas größter Onlinehändler und betreibt die führende Cloud-Plattform des Landes. Die Aktie notiert nur knapp über ihrem 52-Wochen-Tief, bei einem erwarteten KGV von 13. Laut Berichten soll die Chipsparte T-Head vor einem für 2027 geplanten Börsengang in Hongkong umstrukturiert werden. Die nächsten Quartalszahlen stehen je nach Quelle am 18. oder 19. November an – ein antizyklischer, spekulativer Wert.",
+        "risiken": "Zahlentermin nicht eindeutig bestätigt; scharfer Wettbewerb im chinesischen Onlinehandel; hohe KI- und Cloud-Investitionen; politische und regulatorische Risiken; Exportkontrollen für Chips.",
+        "quellen": [
+          {
+            "name": "StockAnalysis – Alibaba (9988)",
+            "url": "https://stockanalysis.com/quote/hkg/9988/"
+          },
+          {
+            "name": "CNBC – 9988-HK",
+            "url": "https://www.cnbc.com/quotes/9988-HK"
+          },
+          {
+            "name": "Morningstar – Alibaba",
+            "url": "https://www.morningstar.com/stocks/xhkg/09988/quote"
+          }
+        ]
+      },
+      {
+        "name": "HDFC Bank Ltd.",
+        "ticker": "HDFCBANK",
+        "boerse": "National Stock Exchange of India",
+        "branche": "Banken",
+        "kennzahlen": {
+          "Kurs (13.11.)": "804 INR",
+          "Tagesveränderung": "rund −1 %",
+          "KGV": "15,49",
+          "Kurs-Buchwert-Verhältnis": "2,06",
+          "52-Wochen-Spanne": "669,20–1.017,50 INR"
+        },
+        "begruendung": "HDFC Bank ist die größte Privatbank Indiens und profitiert vom Kredit- und Einkommenswachstum einer jungen Volkswirtschaft. Mit einem KGV von rund 15 und dem Zweifachen des Buchwerts liegt die Bewertung unter den Niveaus früherer Jahre; die Aktie notiert klar unter ihrem 52-Wochen-Hoch. Indien ist vom Chip- und KI-Zyklus weniger abhängig als Nordasien und streut damit das Regionenrisiko. Der indische Markt gab am Freitag wegen steigender Ölpreise nach.",
+        "risiken": "Steigende Ölpreise belasten Indiens Inflation und Währung; Rupien-Risiko; Margendruck im Einlagengeschäft; für Privatanleger meist nur über ADR oder Fonds handelbar.",
+        "quellen": [
+          {
+            "name": "Upstox – HDFC Bank",
+            "url": "https://upstox.com/stocks/hdfc-bank-ltd-share-price/"
+          },
+          {
+            "name": "Trendlyne – HDFC Bank",
+            "url": "https://trendlyne.com/equity/533/HDFCBANK/hdfc-bank-ltd/"
+          },
+          {
+            "name": "The Tribune – Sensex und Nifty am 13.11.",
+            "url": "https://tribuneindia.com/news/bse/sensex-falls-319-points-nifty-drops-155-points-by-closing-as-rising-crude-revives-inflation-concerns"
+          }
+        ]
+      },
+      {
+        "name": "DBS Group Holdings Ltd.",
+        "ticker": "D05",
+        "boerse": "Singapore Exchange",
+        "branche": "Banken",
+        "kennzahlen": {
+          "Kurs (13.11., ex Dividende)": "69,90 SGD",
+          "Quartalsdividende": "0,81 SGD",
+          "Dividendenrendite (letzte 12 Monate)": "4,48 %",
+          "Gewinn im dritten Quartal": "−5 % zum Vorjahr"
+        },
+        "begruendung": "DBS ist die größte Bank Südostasiens mit Sitz in Singapur und starkem Vermögensverwaltungsgeschäft. Die Aktie bietet eine Dividendenrendite von rund 4,5 % bei vierteljährlicher Ausschüttung; am 13. November wurde sie ex Dividende gehandelt. Zins- und Provisionsüberschuss wuchsen im dritten Quartal, schwächere Handelserträge drückten den Gewinn. Singapur gilt als stabiler Finanzplatz und ergänzt ein Asien-Engagement um einen defensiveren Dividendenwert.",
+        "risiken": "Quartalsgewinn zuletzt rückläufig und unter den Erwartungen; Zinsentwicklung in Asien; Kreditrisiken in China und Hongkong; Währungsrisiko (Singapur-Dollar).",
+        "quellen": [
+          {
+            "name": "Yahoo Finance Singapur – D05 Kurshistorie",
+            "url": "https://sg.finance.yahoo.com/quote/D05.SI/history/"
+          },
+          {
+            "name": "Morningstar – DBS",
+            "url": "https://www.morningstar.com/stocks/xses/d05/quote"
+          }
+        ]
+      },
+      {
+        "name": "Hitachi, Ltd.",
+        "ticker": "6501",
+        "boerse": "Tokyo Stock Exchange",
+        "branche": "Industrie / Energietechnik / IT",
+        "kennzahlen": {
+          "Kurs (13.11.)": "rund 4.962–4.981 JPY",
+          "Ø Kursziel": "6.543,75 JPY (16 Analysten)",
+          "Analystenkonsens": "Kaufen",
+          "52-Wochen-Tief / Allzeithoch": "4.301 JPY / 6.039 JPY (10.02.2026)"
+        },
+        "begruendung": "Hitachi hat sich vom Mischkonzern zu einem Anbieter von Stromnetztechnik, Bahntechnik und IT-Dienstleistungen gewandelt. Der Ausbau von Stromnetzen – auch für Rechenzentren – sorgt für strukturelle Nachfrage, ohne direkt am Chipzyklus zu hängen. Der Kurs liegt deutlich unter dem Allzeithoch vom Februar; 16 Analysten sehen im Schnitt ein Kursziel von gut 6.500 JPY. Die Angaben zum Kursziel könnten nicht ganz aktuell sein und sollten vor einer Entscheidung geprüft werden.",
+        "risiken": "Bewertung nicht günstig (normalisiertes KGV laut Morningstar zuletzt rund 29); Projekt- und Margenrisiken im Netzgeschäft; Yen-Schwankungen; Schlusskurs je nach Quelle leicht abweichend.",
+        "quellen": [
+          {
+            "name": "MSN Money – Hitachi",
+            "url": "https://www.msn.com/en-ca/money/stockdetails/6501-jp-stock/fi-a9fmnm?ocid=a2hs%2Ca2hs"
+          },
+          {
+            "name": "CNBC – 6501.T",
+            "url": "https://www.cnbc.com/quotes/6501.T-JP"
+          },
+          {
+            "name": "MarketScreener – Hitachi Konsens",
+            "url": "https://www.marketscreener.com/quote/stock/HITACHI-LTD-6492458/consensus/"
+          },
+          {
+            "name": "Morningstar – Hitachi",
+            "url": "https://www.morningstar.com/stocks/xngo/6501/quote"
+          }
+        ]
+      }
+    ]
+  }
+}
