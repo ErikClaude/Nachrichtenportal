@@ -92,10 +92,13 @@ class Translator:
     sonst den frei zugänglichen Google-Translate-Endpunkt. Schlägt beides fehl,
     bleibt der Originaltext stehen."""
 
+    MAX_FAILURES = 6
+
     def __init__(self, enabled: bool = True) -> None:
         self.enabled = enabled
         self.deepl_key = os.environ.get("DEEPL_API_KEY", "").strip()
         self.cache: dict[tuple[str, str], str | None] = {}
+        self.failures = 0  # aufeinanderfolgende Fehler; ab MAX_FAILURES wird nicht mehr übersetzt
         self.session = requests.Session()
         self.session.headers["User-Agent"] = USER_AGENT
 
@@ -105,10 +108,23 @@ class Translator:
         key = (source, text)
         if key not in self.cache:
             result = None
-            try:
-                result = self._deepl(text, source) if self.deepl_key else self._google(text, source)
-            except Exception as exc:  # noqa: BLE001 – Übersetzung ist optional
-                log(f"  ! Übersetzung fehlgeschlagen ({type(exc).__name__}): {exc}")
+            for attempt in (1, 2):
+                if self.failures >= self.MAX_FAILURES:
+                    break
+                try:
+                    result = self._deepl(text, source) if self.deepl_key else self._google(text, source)
+                    self.failures = 0
+                    break
+                except Exception as exc:  # noqa: BLE001 – Übersetzung ist optional
+                    self.failures += 1
+                    limited = getattr(getattr(exc, "response", None), "status_code", None) == 429
+                    if attempt == 1 and limited:
+                        time.sleep(5)  # Dienst drosselt: einmal mit Pause wiederholen
+                        continue
+                    log(f"  ! Übersetzung fehlgeschlagen ({type(exc).__name__}): {str(exc)[:120]}")
+                    if self.failures >= self.MAX_FAILURES:
+                        log("  ! Übersetzung für diesen Lauf abgeschaltet – Originaltexte bleiben stehen")
+                    break
             self.cache[key] = result
         return self.cache[key]
 
@@ -165,6 +181,10 @@ def fetch_feed(feed: dict, excerpt_len: int) -> list[Item]:
     if not parsed.entries:
         raise ValueError("Feed enthält keine Einträge")
 
+    # Optionaler Stichwortfilter: nur Meldungen behalten, in denen eines der Wörter vorkommt.
+    words = [re.escape(str(w)) for w in feed.get("nur") or []]
+    only = re.compile(r"\b(?:" + "|".join(words) + r")\b", re.IGNORECASE) if words else None
+
     items = []
     for entry in parsed.entries:
         title = strip_html(entry.get("title", ""))
@@ -175,6 +195,8 @@ def fetch_feed(feed: dict, excerpt_len: int) -> list[Item]:
         if not raw and entry.get("content"):
             raw = entry["content"][0].get("value", "")
         excerpt = strip_html(raw)
+        if only and not only.search(f"{title} {excerpt}"):
+            continue
         if norm_title(excerpt) == norm_title(title):
             excerpt = ""
         # Etwas mehr Text behalten – wird nach einer evtl. Übersetzung endgültig gekürzt.

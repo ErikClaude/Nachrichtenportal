@@ -9,6 +9,8 @@
 #   url:   Adresse des RSS-/Atom-Feeds
 #   lang:  Sprache des Feeds (optional, Standard "de").
 #          Bei allem außer "de" werden Schlagzeile und Exzerpt ins Deutsche übersetzt.
+#   nur:   Liste von Stichwörtern (optional). Ist sie gesetzt, werden aus diesem Feed nur
+#          Meldungen übernommen, in denen mindestens eines der Wörter vorkommt.
 
 einstellungen:
   titel: "Mein Nachrichtenportal"
@@ -48,6 +50,51 @@ rubriken:
         url: "https://www.n-tv.de/wirtschaft/boerse/rss"
       - name: "FAZ"
         url: "https://www.faz.net/rss/aktuell/finanzen/"
+      - name: "Handelsblatt Marktberichte"
+        url: "https://www.handelsblatt.com/contentexport/feed/marktberichte"
+      - name: "tagesschau Marktbericht"
+        url: "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/index~rss2.xml"
+      - name: "manager magazin"
+        url: "https://www.manager-magazin.de/finanzen/boerse/index.rss"
+
+  - name: "Börsentermine & Notenbanken"
+    feeds:
+      - name: "Federal Reserve"
+        url: "https://www.federalreserve.gov/feeds/press_monetary.xml"
+        lang: "en"
+      - name: "EZB"
+        url: "https://www.ecb.europa.eu/rss/press.html"
+        lang: "en"
+        nur: ["monetary policy", "interest rate", "interest rates", "rates", "decision", "decisions", "inflation"]
+      - name: "Seeking Alpha"
+        url: "https://seekingalpha.com/market_currents.xml"
+        lang: "en"
+        nur: &termine ["earnings", "week ahead", "Fed", "Fed's", "FOMC", "ECB", "inflation", "CPI", "PPI",
+                       "jobs", "payrolls", "jobless", "GDP", "rate", "rates", "IPO"]
+      - name: "MarketWatch"
+        url: "https://www.marketwatch.com/rss/marketpulse"
+        lang: "en"
+        nur: *termine
+
+  - name: "Börsengänge"
+    feeds:
+      - name: "Seeking Alpha"
+        url: "https://seekingalpha.com/tag/ipo-analysis.xml"
+        lang: "en"
+      - name: "onvista"
+        url: "https://www.onvista.de/news/feed/rss.xml"
+        nur: ["Börsengang", "Börsengänge", "IPO", "IPOs", "Erstnotiz", "Börsendebüt", "Zeichnungsfrist", "zeichnen"]
+      - name: "Handelsblatt"
+        url: "https://www.handelsblatt.com/contentexport/feed/finanzen"
+        nur: ["Börsengang", "Börsengänge", "IPO", "IPOs", "Erstnotiz", "Börsendebüt", "Zeichnungsfrist"]
+      - name: "manager magazin"
+        url: "https://www.manager-magazin.de/finanzen/boerse/index.rss"
+        nur: ["Börsengang", "Börsengänge", "IPO", "IPOs", "Erstnotiz", "Börsendebüt", "Zeichnungsfrist"]
+
+  - name: "Analysten-Einstufungen"
+    feeds:
+      - name: "FinanzNachrichten"
+        url: "https://www.finanznachrichten.de/rss-aktien-analysen"
 
   - name: "Energie"
     feeds:

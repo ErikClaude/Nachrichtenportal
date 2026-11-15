@@ -23,6 +23,9 @@ Nur `feeds.yaml` bearbeiten – am Code ändert sich nichts. Einen Block unter `
   ist die Reihenfolge auf der Seite.
 - `lang` ist optional (Standard `de`). Bei anderen Sprachen werden Schlagzeile und Exzerpt
   ins Deutsche übersetzt und als „aus dem Englischen übersetzt“ markiert.
+- `nur` ist optional: eine Liste von Stichwörtern. Aus dem Feed werden dann nur Meldungen
+  übernommen, in denen eines der Wörter vorkommt, z. B. `nur: ["Börsengang", "IPO"]`. So lässt
+  sich aus einem allgemeinen Feed eine Themen-Rubrik bauen.
 - Feeds kann man genauso zu bestehenden Rubriken hinzufügen oder daraus löschen.
 - Vorher testen, ob der Feed funktioniert: lokal `python build.py` ausführen – in der Ausgabe
   steht pro Feed `✓` oder `✗`. Ein defekter Feed wird übersprungen, die Seite trotzdem gebaut.
